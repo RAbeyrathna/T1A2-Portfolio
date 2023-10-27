@@ -1,3 +1,8 @@
+body, form, fieldset, ol, ul, li, h1, h2, h3, h4, h5, h6, p {
+  margin: 0;
+  padding: 0;
+}
+
 * {
   font-family: "Crimson Text", serif;
   font-family: "Roboto", sans-serif;
@@ -7,12 +12,31 @@ body {
   background-color: #B7DAE9;
 }
 
-nav {
+#navbar {
+  height: 50px;
   background-color: #fff;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 20px;
 }
 
-nav * {
-  display: inline-block;
+ul {
+  list-style-type: none;
+  display: flex;
+  margin: 0;
+  padding: 0;
+}
+ul a {
+  text-decoration: none;
+  color: black;
+  margin: 20px;
+}
+
+#contact-btn {
+  text-decoration: none;
+  color: black;
+  margin: 10px;
 }
 
 /*# sourceMappingURL=style.css.map */
