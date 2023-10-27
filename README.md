@@ -4,7 +4,7 @@
 
 A personal portfolio website created for the Coder Academy T1A2 assignment.
 
-View the live demo [here.]()
+View the live demo [here.](https://rabeyrathna.github.io/T1A2-Portfolio/)
 </div>
 
 ### Screenshots
