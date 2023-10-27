@@ -1,0 +1,18 @@
+* {
+  font-family: "Crimson Text", serif;
+  font-family: "Roboto", sans-serif;
+}
+
+body {
+  background-color: #B7DAE9;
+}
+
+nav {
+  background-color: #fff;
+}
+
+nav * {
+  display: inline-block;
+}
+
+/*# sourceMappingURL=style.css.map */

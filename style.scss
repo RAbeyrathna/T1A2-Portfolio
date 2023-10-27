@@ -1,0 +1,19 @@
+$primary-color: #B7DAE9;
+$secondary-color: #F26666;
+
+*{
+    font-family: 'Crimson Text', serif;
+    font-family: 'Roboto', sans-serif;
+
+}
+body {
+    background-color: $primary-color;
+}
+
+nav{
+    background-color: #fff;
+}
+
+nav * {
+    display: inline-block;
+}
