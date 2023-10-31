@@ -47,12 +47,21 @@ ul a {
   color: #fff;
 }
 
+.wrapper {
+  width: 100%;
+  height: 100vh;
+  overflow-y: scroll;
+  scroll-snap-type: y mandatory;
+}
+
 .main-sec {
   background-color: #95C6DB;
   margin: 50px;
   padding: 50px;
   border-radius: 8%;
   margin-bottom: 200px;
+  scroll-snap-align: start;
+  scroll-margin: 50px;
 }
 
 .inner-sec {
