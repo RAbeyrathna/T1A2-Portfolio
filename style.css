@@ -47,7 +47,7 @@ ul a {
   color: #fff;
 }
 
-#main-sec {
+.main-sec {
   background-color: #95C6DB;
   margin: 50px;
   padding: 50px;
@@ -55,14 +55,14 @@ ul a {
   margin-bottom: 200px;
 }
 
-#who-am-i {
+.inner-sec {
   width: 80vw;
   height: 70vh;
   display: flex;
   flex-direction: row;
   align-items: center;
 }
-#who-am-i article {
+.inner-sec article {
   margin-left: 2em;
   margin-right: 2em;
   font-size: 1.2rem;
