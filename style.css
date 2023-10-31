@@ -11,6 +11,24 @@ body {
   background-color: #B7DAE9;
 }
 
+.nav-link {
+  width: 50px;
+  padding: 12px;
+  text-decoration: none;
+  color: grey;
+  margin: 20px;
+}
+
+.nav-link:hover {
+  color: black;
+  background-color: rgba(232, 209, 209, 0.435);
+  border-radius: 12px;
+}
+
+.page-btn:hover {
+  background-color: #cc5e5e;
+}
+
 img {
   height: 400px;
   width: 400px;
@@ -32,13 +50,12 @@ ul {
   margin: 0;
   padding: 0;
 }
-ul a {
-  text-decoration: none;
-  color: black;
-  margin: 20px;
+
+#blog-link {
+  margin-right: 140px;
 }
 
-#contact-btn {
+.page-btn {
   text-decoration: none;
   margin-right: 20px;
   padding: 10px 18px;
@@ -64,6 +81,11 @@ ul a {
   scroll-margin: 50px;
 }
 
+.section-heading {
+  font-size: 2.3em;
+  font-weight: 500;
+}
+
 .inner-sec {
   width: 80vw;
   height: 70vh;
@@ -75,6 +97,21 @@ ul a {
   margin-left: 2em;
   margin-right: 2em;
   font-size: 1.2rem;
+}
+
+#interest {
+  display: inline-block;
+  text-align: center;
+}
+#interest .section-heading {
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+#interest p {
+  margin-bottom: 250px;
+}
+#interest .page-btn {
+  padding: 10px 30px;
 }
 
 /*# sourceMappingURL=style.css.map */

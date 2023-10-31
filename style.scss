@@ -15,6 +15,39 @@ body {
     background-color: $primary-color;
 }
 
+// a {
+//         padding: 12px;
+//         text-decoration: none;
+//         color: grey;
+//         margin: 20px;
+
+// }
+
+// a:hover{
+//     color:black;
+//     background-color: rgba(163, 145, 145, 0.595);
+//     border-radius: 12px;
+// }
+
+.nav-link {
+        width: 50px;
+        padding: 12px;
+        text-decoration: none;
+        color: grey;
+        margin: 20px; 
+}
+
+
+.nav-link:hover{
+    color:black;
+    background-color: rgba(232, 209, 209, 0.435);
+    border-radius: 12px;
+}
+
+.page-btn:hover {
+    background-color: #cc5e5e;
+}
+
 img {
     height: 400px;
     width: 400px;
@@ -36,15 +69,14 @@ ul {
     display: flex;
     margin: 0;
     padding: 0;
-
-    a {
-        text-decoration: none;
-        color: black;
-        margin: 20px;
-    }
+    
 }
 
-#contact-btn {
+#blog-link {
+    margin-right: 140px;
+}
+
+.page-btn {
     text-decoration: none;
     margin-right: 20px;
     padding: 10px 18px;
@@ -75,6 +107,11 @@ ul {
 }
 
 
+.section-heading {
+  font-size: 2.3em;
+  font-weight: 500;  
+}
+
 .inner-sec {
     width: 80vw;
     height: 70vh;
@@ -90,6 +127,23 @@ ul {
         margin-right: 2em;
         font-size: 1.2rem;
 
+    }
+}
+
+
+
+#interest {
+    display: inline-block;
+    text-align: center;
+    .section-heading {
+        margin-top: 50px;
+        margin-bottom: 50px;
+    }
+    p {
+        margin-bottom: 250px;
+    }
+    .page-btn{
+        padding: 10px 30px;
     }
 }
 

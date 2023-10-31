@@ -16,11 +16,15 @@
     <nav id="navbar">
       <h1 id="nav-heading">Rahal Abeyrathna</h1>
       <ul>
-        <li class="nav-link"><a href="./pages/about.html">About Me</a></li>
-        <li class="nav-link"><a href="./pages/projects.html">Projects</a></li>
-        <li class="nav-link"><a href="./pages/blog.html">Blog</a></li>
+        <li><a class="nav-link" href="./pages/about.html">About Me</a></li>
+        <li><a class="nav-link" href="./pages/projects.html">Projects</a></li>
+        <li id="blog-link">
+          <a class="nav-link" href="./pages/blog.html">Blog</a>
+        </li>
       </ul>
-      <a class="btn" id="contact-btn" href="./pages/contact.html">Contact me</a>
+      <a class="page-btn" id="contact-btn" href="./pages/contact.html"
+        >Contact me</a
+      >
     </nav>
     <main class="wrapper">
       <section class="main-sec">
@@ -68,16 +72,18 @@
       </section>
 
       <section class="main-sec">
-        <div class="inner-sec">
+        <div class="inner-sec" id="interest">
           <h4 class="section-heading">Have I caught your interest?</h4>
           <p>
             Lorem ipsum dolor sit, amet consectetur adipisicing elit. Accusamus,
             incidunt! Beatae eveniet repellat omnis voluptas ipsum cupiditate
             eos perspiciatis error dolores.
           </p>
-          <a href="./pages/projects.html">Projects</a>
-          <a href="./pages/contact.html">Contact me</a>
-          <a href="./pages/blog.html">Blog</a>
+          <div id="page-links">
+            <a class="page-btn" href="./pages/projects.html">Projects</a>
+            <a class="page-btn" href="./pages/contact.html">Contact me</a>
+            <a class="page-btn" href="./pages/blog.html">Blog</a>
+          </div>
         </div>
       </section>
     </main>
