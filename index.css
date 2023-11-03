@@ -3,6 +3,10 @@ body, form, fieldset, ol, ul, li, h1, h2, h3, h4, h5, h6, p {
   padding: 0;
 }
 
+* {
+  font-family: "Roboto", "Crimson Text", sans-serif;
+}
+
 .nav-link {
   width: 50px;
   padding: 12px;
@@ -69,10 +73,6 @@ ul {
   background-color: #cc5e5e;
 }
 
-* {
-  font-family: "Roboto", "Crimson Text", sans-serif;
-}
-
 body {
   background-color: #B7DAE9;
 }
@@ -130,6 +130,7 @@ img {
   display: flex;
   align-items: center;
   background-color: #95C6DB;
+  padding: 50px;
   width: 80vw;
   height: 80vh;
 }

@@ -1,13 +1,8 @@
 @import "./styles/defaults/clear-styles.scss";
+@import "./styles/defaults/fonts.scss";
 @import "./styles/defaults/colors.scss";
 @import "./styles/defaults/breakpoints.scss";
 @import "./styles/components/navbar.scss";
-
-
-* {
-    font-family: 'Roboto','Crimson Text', sans-serif;
-}
-
 
 body {
     background-color: $primary-color;
@@ -72,7 +67,7 @@ img {
     display: flex;
     align-items: center;
     background-color: $bg-box-color;
-    // padding: 100px;
+    padding: 50px;
     width: 80vw;
     height: 80vh;
     article {
