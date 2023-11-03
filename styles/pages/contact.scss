@@ -10,6 +10,42 @@ body {
     background-color: #F1D3E2;
 }
 
+p {
+    text-align: center;
+}
+
+
+.main-sec{
+    height: 90vh;
+    margin-top: 0px;
+}
+
+
 .inner-sec {
     background-color: #F9B5C5;
+    flex-direction: column;
+    justify-content: space-around;
+    height: 70vh;
+    width: 70vw;
+}
+
+
+
+.section-heading {
+    text-align: center;
+    margin-bottom: 60px;
+}
+article {
+    margin-bottom: 300px;
+}
+
+#page-links{
+    margin-bottom: 100px;
+}
+.page-btn {
+    @extend #contact-btn;
+}
+
+.page-btn:hover {
+    background-color: #cc5e5e;
 }

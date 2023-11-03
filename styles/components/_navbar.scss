@@ -9,19 +9,13 @@
     margin: 20px; 
 }
 
-.nav-link {
-width: 50px;
-padding: 12px;
-text-decoration: none;
-color: grey;
-margin: 20px; 
-}
 
 #nav-heading{
 font-weight: 300;
 text-decoration: none;
 color: black;
 font-size: 1.3em;
+padding-left: 20px;
 }
 
 .nav-link:hover{
@@ -40,7 +34,6 @@ background-color: #fff;
 display: flex;
 align-items: center;
 justify-content: space-between;
-padding: 0 20px;
 }
 
 
@@ -53,7 +46,7 @@ padding: 0;
 }
 
 #blog-link {
-margin-right: 140px;
+margin-right: 80px;
 }
 
 #contact-btn {

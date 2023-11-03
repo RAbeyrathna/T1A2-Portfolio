@@ -1,0 +1,29 @@
+@import "../defaults/clear-styles.scss";
+@import "../defaults/fonts";
+@import "../defaults/colors.scss";
+@import "../defaults/breakpoints.scss";
+@import "../components/navbar.scss";
+@import "../components/section-box";
+@import "../defaults/section-wrapper.scss";
+
+body {
+    background-color: $primary-color;
+}
+
+h1 {
+    text-align: center;
+    margin-top: 50px;
+}
+
+p{
+    text-align: center;
+    margin: 50px, 
+}
+
+.inner-sec {
+    display: flex;
+    flex-direction: column;
+}
+// .inner-sec {
+//     background-color: ;
+// }
