@@ -4,7 +4,7 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Rahal Abeyrathna</title>
-    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="index.css" />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
@@ -14,7 +14,7 @@
   </head>
   <body>
     <nav id="navbar">
-      <h1 id="nav-heading">Rahal Abeyrathna</h1>
+      <a id="nav-heading" href="./index.html">Rahal Abeyrathna</a>
       <ul>
         <li><a class="nav-link" href="./pages/about.html">About Me</a></li>
         <li><a class="nav-link" href="./pages/projects.html">Projects</a></li>
@@ -23,10 +23,18 @@
         </li>
       </ul>
       <a class="page-btn" id="contact-btn" href="./pages/contact.html"
-        >Contact me</a
-      >
+        >Contact me &#187;
+      </a>
     </nav>
-    <main class="wrapper">
+    <main class="section-wrapper">
+      <section id="splash-page">
+        <div id="splash-inner">
+          <h2 id="splash-heading">
+            Hey there! <br />
+            I'm Rahal Abeyrathna!
+          </h2>
+        </div>
+      </section>
       <section class="main-sec">
         <div class="inner-sec">
           <span class="section-img">
@@ -37,7 +45,7 @@
             />
           </span>
           <article>
-            <h2 class="section-heading">Who am I?</h2>
+            <h3 class="section-heading">Who am I?</h3>
             <p>
               Lorem ipsum dolor sit amet consectetur adipisicing elit. Alias
               blanditiis, accusamus mollitia molestiae architecto consequatur
@@ -55,7 +63,7 @@
       <section class="main-sec">
         <div class="inner-sec">
           <article>
-            <h3 class="section-heading">A Quick History Lesson</h3>
+            <h4 class="section-heading">A Quick History Lesson</h4>
             <p>
               Lorem ipsum dolor sit amet consectetur adipisicing elit. Alias
               blanditiis, accusamus mollitia molestiae architecto consequatur
@@ -67,13 +75,19 @@
               consequuntur nostrum maiores?
             </p>
           </article>
-          <span class="section-img"></span>
+          <span class="section-img">
+            <img
+              class="border-rad main-img"
+              src="./img/bt-chair.jpg"
+              alt="Rahal sitting in chair"
+            />
+          </span>
         </div>
       </section>
 
       <section class="main-sec">
         <div class="inner-sec" id="interest">
-          <h4 class="section-heading">Have I caught your interest?</h4>
+          <h5 class="section-heading">Have I caught your interest?</h5>
           <p>
             Lorem ipsum dolor sit, amet consectetur adipisicing elit. Accusamus,
             incidunt! Beatae eveniet repellat omnis voluptas ipsum cupiditate
