@@ -4,7 +4,7 @@
 @import "./styles/defaults/breakpoints.scss";
 @import "./styles/components/navbar.scss";
 @import "./styles/components/section-box";
-
+@import "./styles/defaults/section-wrapper.scss";
 body {
     background-color: $primary-color;
 }
@@ -39,13 +39,6 @@ img {
     color: #EFDEC0;
     margin-left: 10%;
     width: 100%;
-}
-
-.section-wrapper {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
 }
 
 .section-heading {
