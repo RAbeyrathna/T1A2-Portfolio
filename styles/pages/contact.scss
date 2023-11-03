@@ -1,0 +1,15 @@
+@import "../defaults/clear-styles.scss";
+@import "../defaults/fonts";
+@import "../defaults/colors.scss";
+@import "../defaults/breakpoints.scss";
+@import "../components/navbar.scss";
+@import "../components/section-box";
+@import "../defaults/section-wrapper.scss";
+
+body {
+    background-color: #F1D3E2;
+}
+
+.inner-sec {
+    background-color: #F9B5C5;
+}

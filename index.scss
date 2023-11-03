@@ -5,6 +5,7 @@
 @import "./styles/components/navbar.scss";
 @import "./styles/components/section-box";
 @import "./styles/defaults/section-wrapper.scss";
+
 body {
     background-color: $primary-color;
 }
@@ -41,10 +42,7 @@ img {
     width: 100%;
 }
 
-.section-heading {
-  font-size: 2.3em;
-  font-weight: 500;  
-}
+
 
 .main-sec{
     background-color: $primary-color;
