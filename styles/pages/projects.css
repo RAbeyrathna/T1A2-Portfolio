@@ -84,8 +84,8 @@ ul {
   display: flex;
   align-items: center;
   padding: 50px;
-  width: 80vw;
-  height: 80vh;
+  width: 80%;
+  height: 80%;
 }
 
 .section-wrapper {

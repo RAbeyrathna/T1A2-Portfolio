@@ -62,6 +62,24 @@ img {
     margin: 20px;
 }
 
+#skills{
+    flex-direction: column;
+    justify-content: space-between;
+    .skill-wrapper{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        .skill-heading {
+            font-size: 2em;
+            text-align: center;
+            margin-bottom: 10px;
+        }
+    }
+    .section-heading{
+        text-align: center;
+    }
+}
+
 #interest{
     flex-direction: column;
     justify-content: space-around;
