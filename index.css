@@ -106,12 +106,6 @@ body {
   background-color: #cc5e5e;
 }
 
-img {
-  height: 400px;
-  width: 400px;
-  border-radius: 10%;
-}
-
 #splash-page {
   background-color: #F26666;
   height: 100vh;
@@ -126,6 +120,7 @@ img {
   font-weight: 300;
   color: #EFDEC0;
   margin-left: 10%;
+  margin-bottom: 10%;
   width: 100%;
 }
 
@@ -135,14 +130,32 @@ img {
 
 .inner-sec {
   background-color: #95C6DB;
+  max-height: 70vh;
+  max-width: 80vw;
 }
 .inner-sec article {
   padding: 40px;
 }
-.inner-sec img {
-  margin: 50px;
+.inner-sec .border-rad {
+  border-radius: 12px;
 }
-
+.inner-sec .section-content {
+  max-width: 30vw;
+}
+.inner-sec #wai-img {
+  height: 400px;
+  width: 400px;
+}
+.inner-sec #history-img {
+  display: block;
+  max-width: 600px;
+  max-height: 500px;
+  width: auto;
+  height: auto;
+}
+.inner-sec .section-heading {
+  margin-bottom: 20px;
+}
 .inner-sec:nth-child(1) {
   margin: 20px;
 }
@@ -150,6 +163,13 @@ img {
 #skills {
   flex-direction: column;
   justify-content: space-between;
+}
+#skills img {
+  display: block;
+  max-width: 600px;
+  max-height: 200px;
+  width: auto;
+  height: auto;
 }
 #skills .skill-wrapper {
   display: flex;
@@ -163,7 +183,8 @@ img {
 }
 #skills .section-heading {
   text-align: center;
-  margin-top: 20px;
+  margin: 20px 0px;
+  padding-bottom: 20px;
 }
 
 .spacer {
@@ -176,15 +197,15 @@ img {
   text-align: center;
 }
 #interest .section-heading {
-  margin-bottom: 50px;
-  margin-top: 100px;
+  margin-bottom: 5%;
+  margin-top: 2%;
 }
 #interest p {
   width: 75%;
 }
 #interest .icon-img {
-  height: 120px;
-  width: 120px;
+  height: 100px;
+  width: 100px;
 }
 
 .link-wrapper {
@@ -194,6 +215,7 @@ img {
   display: flex;
   flex-direction: column;
   margin: 70px;
+  margin-bottom: 150px;
 }
 .link-wrapper .link-box img {
   margin: 0;
@@ -206,11 +228,11 @@ img {
   min-width: 100px;
 }
 .link-wrapper #projects-img {
-  margin-left: 14px;
+  margin-left: 22px;
 }
 .link-wrapper #email-img {
-  margin-left: 8px;
+  margin-left: 15px;
 }
 .link-wrapper #blog-img {
-  margin-left: 16px;
+  margin-left: 24px;
 }/*# sourceMappingURL=index.css.map */
