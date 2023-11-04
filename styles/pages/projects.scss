@@ -40,12 +40,13 @@ body {
         font-style: italic;
     }
     .project-description{
+        width: 70vw;
         margin: 20px;
     }
+    &:last-of-type{
+        margin-bottom: 50px;
+    }
 }
-
-
-
 
 .divider {
     border-top: 1px rgb(55, 55, 55) solid;
@@ -53,6 +54,7 @@ body {
     height: 1px;
     width: 60%;
     margin-top: 30px;
+
 }
 
 img {

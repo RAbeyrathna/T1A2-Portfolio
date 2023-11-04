@@ -133,7 +133,11 @@ body {
   font-style: italic;
 }
 .inner-sec .project-description {
+  width: 70vw;
   margin: 20px;
+}
+.inner-sec:last-of-type {
+  margin-bottom: 50px;
 }
 
 .divider {
