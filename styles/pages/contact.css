@@ -135,6 +135,8 @@ p {
 .link-wrapper {
   display: flex;
   text-align: center;
+  flex-wrap: wrap;
+  justify-content: center;
 }
 .link-wrapper .icon-img {
   height: 120px;
@@ -144,6 +146,7 @@ p {
   display: flex;
   flex-direction: column;
   align-items: center;
+  width: 20%;
   margin: 70px;
 }
 .link-wrapper .link-box img {
