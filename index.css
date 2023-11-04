@@ -135,16 +135,17 @@ body {
 }
 .inner-sec article {
   padding: 40px;
+  justify-content: space-evenly;
 }
 .inner-sec .border-rad {
   border-radius: 12px;
 }
-.inner-sec .section-content {
-  max-width: 30vw;
-}
 .inner-sec #wai-img {
-  height: 400px;
-  width: 400px;
+  display: block;
+  max-width: 500px;
+  max-height: 500px;
+  width: auto;
+  height: auto;
 }
 .inner-sec #history-img {
   display: block;
@@ -162,33 +163,32 @@ body {
 
 #skills {
   flex-direction: column;
-  justify-content: space-between;
+  justify-content: space-around;
 }
-#skills img {
-  display: block;
-  max-width: 600px;
-  max-height: 200px;
-  width: auto;
-  height: auto;
+#skills .section-heading {
+  text-align: center;
 }
 #skills .skill-wrapper {
   display: flex;
   flex-direction: row;
-  justify-content: space-between;
+  justify-content: space-around;
 }
 #skills .skill-wrapper .skill-heading {
   font-size: 2em;
   text-align: center;
   margin-bottom: 10px;
 }
-#skills .section-heading {
-  text-align: center;
-  margin: 20px 0px;
-  padding-bottom: 20px;
+#skills img {
+  display: block;
+  max-width: 500px;
+  max-height: 200px;
+  width: auto;
+  height: auto;
 }
 
 .spacer {
   height: 200px;
+  width: 200px;
 }
 
 #interest {
