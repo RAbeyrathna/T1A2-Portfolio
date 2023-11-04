@@ -99,17 +99,43 @@ body {
   background-color: #B7DAE9;
 }
 
-h1 {
-  text-align: center;
+.page-heading {
   margin-top: 50px;
+  text-align: center;
+}
+.page-heading p {
+  margin-top: 2%;
+  text-align: center;
+  padding: 0% 20%;
 }
 
-p {
-  text-align: center;
-  margin: 50px;
+.project-sec {
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .inner-sec {
   display: flex;
   flex-direction: column;
+  text-align: center;
+  padding-bottom: 0;
+}
+.inner-sec .project-year {
+  margin: 20px;
+}
+.inner-sec .project-description {
+  margin: 20px;
+}
+
+.project-heading {
+  font-size: 1.8em;
+}
+
+.divider {
+  border-top: 1px rgb(55, 55, 55) solid;
+  background-color: rgb(55, 55, 55);
+  height: 1px;
+  width: 60%;
+  margin-top: 30px;
 }/*# sourceMappingURL=projects.css.map */
