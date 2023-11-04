@@ -36,7 +36,7 @@ align-items: center;
 justify-content: space-between;
 position: sticky;
 top: 0;
-width: 100vw;
+min-width: 100vw; //a couple pixels too large which causes issues when scrolling to the right
 }
 
 
@@ -64,3 +64,5 @@ color: #fff;
 #contact-btn:hover {
     background-color: #cc5e5e;
 }
+
+

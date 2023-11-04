@@ -29,16 +29,21 @@ h1 {
     height: 40vh;
     width: 30%;
     margin: 20px;
+    min-height: 500px;
+    max-height: 550px;
     .inner-blog{
         display: flex;
         justify-content: space-between;
         .blog-img{
-            width: 62%;
+            min-height: 500px;
+            max-height: 550px;
+            max-width: 550px;
+            
         }
         img{
             width: 100%;
             border-radius: 12px;
-            box-sizing: border-box;
+
         }
     }
     .divider {
@@ -49,6 +54,7 @@ h1 {
     .blog-content{
         padding: 20px;
         padding-left: 0;
+        flex-grow: 1;
         .blog-heading{
             font-weight: 500;
             font-size: 1.7em;
@@ -69,6 +75,10 @@ h1 {
 
 .reverse-blog {
     flex-direction: row-reverse;
+    .blog-content{
+        padding: 20px;
+        padding-right: 0;
+}
 }
 
 .featured {
@@ -76,9 +86,9 @@ h1 {
 }
 
 .single {
-    height: 600px;
+    height: 700px;
     .inner-blog{
-    flex-direction: column;
+    flex-direction: column-reverse;
     justify-content: center;
     align-items: center;
     .blog-img{
@@ -88,6 +98,7 @@ h1 {
         border-left: 0;
         border-top: 1px #535353 solid;
         margin: 0px;
+        margin-bottom: 20px;
         height: 1px;
         width: 50%;
     }

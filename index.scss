@@ -29,6 +29,7 @@ img {
 #splash-page{
     background-color: $secondary-color;
     height: 100vh;
+    min-width: 100vw;
     width: 100vw;
     display: flex;
     align-items: center;
@@ -40,6 +41,7 @@ img {
     color: #EFDEC0;
     margin-left: 10%;
     width: 100%;
+    
 }
 
 
@@ -77,13 +79,57 @@ img {
     }
     .section-heading{
         text-align: center;
+        margin-top: 20px;
     }
 }
 
-#interest{
+.spacer{
+    height: 200px;
+}
+
+#interest {
+    display: flex;
     flex-direction: column;
-    justify-content: space-around;
-    a {
-        margin: 50px;
+    text-align: center;
+    .section-heading{
+        margin-bottom: 50px;
+        margin-top: 100px;
+    }
+    p {
+        width: 75%;
+    }
+    
+    .icon-img{
+        height: 120px;
+        width: 120px;
+    }
+  }
+
+.link-wrapper{
+    display: flex;
+
+    .link-box{
+        display: flex;
+        flex-direction: column;
+        img{
+            margin: 0;
+            margin-bottom: 25px;
+        }
+        a{
+            margin: 0;
+        }
+        .page-btn{
+            min-width: 100px;
+        }
+        margin: 70px;
+    }
+    #projects-img{
+        margin-left: 14px;
+    }
+    #email-img{
+        margin-left: 8px;
+    }
+    #blog-img{
+        margin-left: 16px;
     }
 }
