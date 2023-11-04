@@ -31,17 +31,21 @@ body {
     flex-direction: column;
     text-align: center;
     padding-bottom: 0;
+    .project-heading{
+        font-weight: 400;
+        font-size: 1.8em;
+    }
     .project-year{
         margin: 20px;
+        font-style: italic;
     }
     .project-description{
         margin: 20px;
     }
 }
 
-.project-heading{
-    font-size: 1.8em;
-}
+
+
 
 .divider {
     border-top: 1px rgb(55, 55, 55) solid;
@@ -49,4 +53,9 @@ body {
     height: 1px;
     width: 60%;
     margin-top: 30px;
+}
+
+img {
+    min-width: 80vw;
+    min-height: 50vh;
 }
