@@ -44,6 +44,9 @@ body, form, fieldset, ol, ul, li, h1, h2, h3, h4, h5, h6, p {
   display: flex;
   align-items: center;
   justify-content: space-between;
+  position: sticky;
+  top: 0;
+  width: 100vw;
 }
 
 ul {
@@ -76,7 +79,8 @@ ul {
   width: 100vw;
   justify-content: center;
   align-items: center;
-  margin: 100px;
+  margin: 30px;
+  padding: 30px;
 }
 
 .inner-sec {
