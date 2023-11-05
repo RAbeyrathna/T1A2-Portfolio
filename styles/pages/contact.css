@@ -108,6 +108,7 @@ body {
 
 .main-sec {
   height: 90vh;
+  padding: 0;
 }
 
 .inner-sec {
@@ -158,12 +159,14 @@ body {
 .link-wrapper .link-box .page-btn {
   min-width: 100px;
 }
-.link-wrapper #projects-img {
-  margin-left: 14px;
+.link-wrapper #resume-img {
+  width: 150px;
+  height: 150px;
+  margin-bottom: 0;
+}
+.link-wrapper #resume-box {
+  margin-top: 0px;
 }
 .link-wrapper #email-img {
-  margin-right: 5px;
-}
-.link-wrapper #blog-img {
-  margin-left: 16px;
+  margin-right: 3px;
 }/*# sourceMappingURL=contact.css.map */

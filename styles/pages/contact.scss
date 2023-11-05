@@ -22,6 +22,7 @@ body {
 
 .main-sec{
     height: 90vh;
+    padding: 0;
 }
 
 
@@ -74,14 +75,16 @@ body {
         }
         margin: 70px;
     }
-    #projects-img{
-        margin-left: 14px;
+    #resume-img{
+        width: 150px;
+        height: 150px;
+        margin-bottom: 0;
+    }
+    #resume-box{
+        margin-top: 0px;
     }
     #email-img{
-        margin-right: 5px;
-    }
-    #blog-img{
-        margin-left: 16px;
+        margin-right: 3px;
     }
 }
 
