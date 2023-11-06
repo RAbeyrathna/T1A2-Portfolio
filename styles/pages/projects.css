@@ -109,7 +109,7 @@ body {
   display: flex;
   flex-direction: column;
   width: 80vw;
-  background-color: #95C6DB;
+  background-color: rgba(132, 192, 218, 0.3960784314);
   border-radius: 12px;
   margin-top: 20px;
 }
