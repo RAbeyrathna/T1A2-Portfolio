@@ -114,6 +114,15 @@ h1 {
   flex-wrap: wrap;
 }
 
+.read-more {
+  color: #de6c1a;
+  text-decoration: none;
+  font-weight: 500;
+}
+.read-more:hover {
+  text-decoration: underline;
+}
+
 .blog-post {
   background-color: #fff;
   border: 0px black solid;
@@ -148,9 +157,14 @@ h1 {
   padding-left: 0;
 }
 .blog-post .blog-content .blog-heading {
+  color: black;
   font-weight: 500;
   font-size: 1.7em;
   margin-top: 10px;
+  text-decoration: none;
+}
+.blog-post .blog-content .blog-heading:hover {
+  text-decoration: underline;
 }
 .blog-post .blog-content .blog-year {
   color: black;
@@ -161,6 +175,12 @@ h1 {
 .blog-post .blog-content .blog-descrption {
   color: grey;
   font-weight: 300;
+  max-height: 75%;
+  overflow: hidden;
+}
+
+.blog-descrption {
+  background-color: rgba(111, 111, 111, 0.0431372549);
 }
 
 .reverse-blog {
@@ -186,6 +206,7 @@ h1 {
 .single .inner-blog .blog-img {
   width: 100%;
   height: auto;
+  max-height: 1000px;
 }
 .single .inner-blog .divider {
   border-left: 0;
@@ -197,4 +218,8 @@ h1 {
 }
 .single .inner-blog .blog-content {
   margin-left: 20px;
+}
+.single .inner-blog .blog-descrption {
+  max-height: 200px;
+  overflow: hidden;
 }/*# sourceMappingURL=blog.css.map */

@@ -22,6 +22,18 @@ h1 {
     flex-wrap: wrap;
 }
 
+.read-more{
+    color: #de6c1a;
+    text-decoration: none;
+    font-weight: 500;
+    &:hover{
+        text-decoration: underline;
+    }
+}
+
+
+
+
 .blog-post {
     background-color: #fff;
     border: 0px black solid;
@@ -56,9 +68,14 @@ h1 {
         padding-left: 0;
         // flex-grow: 1;
         .blog-heading{
+            color: black;
             font-weight: 500;
             font-size: 1.7em;
             margin-top: 10px;
+            text-decoration: none;
+            &:hover{
+                text-decoration: underline;
+            }
         }
         .blog-year{
             color: black;
@@ -69,8 +86,14 @@ h1 {
         .blog-descrption{
             color: grey;
             font-weight: 300;
+            max-height: 75%;
+            overflow:hidden;
         }
     }
+}
+
+.blog-descrption{
+    background-color: #6f6f6f0b;
 }
 
 .reverse-blog {
@@ -94,7 +117,7 @@ h1 {
     .blog-img{
         width: 100%;
         height: auto;
-
+        max-height: 1000px;
     }
     .divider {
         border-left: 0;
@@ -106,6 +129,10 @@ h1 {
     }
     .blog-content{
         margin-left: 20px;
+    }
+    .blog-descrption{
+        max-height: 200px;
+        overflow: hidden;
     }
     }
 }
