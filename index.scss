@@ -25,8 +25,7 @@ body {
 #splash-page{
     background-color: $secondary-color;
     height: 100vh;
-    min-width: 100vw;
-    width: 100vw;
+    width: 100%;
     display: flex;
     align-items: center;
 }
@@ -45,6 +44,7 @@ body {
 
 .main-sec{
     background-color: $primary-color;
+    max-width: 100%;
 }
 
 .inner-sec{

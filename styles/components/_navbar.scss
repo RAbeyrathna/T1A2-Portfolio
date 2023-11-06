@@ -1,6 +1,29 @@
 @import "../defaults/colors";
 @import "../defaults/breakpoints";
 
+
+
+#navbar{
+    // min-width: 100vw; //a couple pixels too large which causes issues when scrolling to the right
+    // max-width: 100vw;
+    min-width: 100%;
+    max-width: 100%;
+    height: 70px;
+    background-color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    position: sticky;
+    top: 0;
+    
+#nav-heading{
+    font-weight: 300;
+    text-decoration: none;
+    color: black;
+    font-size: 1.3em;
+    padding-left: 20px;
+    }    
+
 .nav-link {
     width: 50px;
     padding: 12px;
@@ -10,13 +33,7 @@
 }
 
 
-#nav-heading{
-font-weight: 300;
-text-decoration: none;
-color: black;
-font-size: 1.3em;
-padding-left: 20px;
-}
+
 
 .nav-link:hover{
 color:black;
@@ -28,15 +45,6 @@ border-radius: 12px;
 color: $secondary-color;
 }
 
-#navbar{
-height: 70px;
-background-color: #fff;
-display: flex;
-align-items: center;
-justify-content: space-between;
-position: sticky;
-top: 0;
-min-width: 100vw; //a couple pixels too large which causes issues when scrolling to the right
 }
 
 
