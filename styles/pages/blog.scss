@@ -24,7 +24,7 @@ h1 {
 
 .blog-post {
     background-color: #fff;
-    border: 1px black solid;
+    border: 0px black solid;
     border-radius: 25px;
     height: 40vh;
     width: 30%;
@@ -34,27 +34,27 @@ h1 {
     .inner-blog{
         display: flex;
         justify-content: space-between;
+        height: 100%;
+        .divider {
+            display: inline-block;
+        }
         .blog-img{
-            min-height: 500px;
-            max-height: 550px;
-            max-width: 550px;
-            
-        }
-        img{
-            width: 100%;
+            width: auto;
+            height: 100%;
+            max-width: 50vw;
             border-radius: 12px;
-
         }
+
     }
     .divider {
-        height: 480px;
+        height: auto;
         border-left: 1px #535353 solid;
         margin: 20px;
     }
     .blog-content{
         padding: 20px;
         padding-left: 0;
-        flex-grow: 1;
+        // flex-grow: 1;
         .blog-heading{
             font-weight: 500;
             font-size: 1.7em;
@@ -88,11 +88,13 @@ h1 {
 .single {
     height: 700px;
     .inner-blog{
-    flex-direction: column-reverse;
-    justify-content: center;
+    flex-direction: column;
+    justify-content: flex-start;
     align-items: center;
     .blog-img{
-        margin-bottom: 20px;
+        width: 100%;
+        height: auto;
+
     }
     .divider {
         border-left: 0;
