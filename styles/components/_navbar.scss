@@ -13,6 +13,10 @@
     top: 0;
 }
 
+button{
+    all: unset;
+}
+
 #nav-heading{
     font-weight: 300;
     text-decoration: none;
@@ -113,7 +117,7 @@ color: #fff;
         background-color: white;
         .dropdown-link{
             text-decoration: none;
-            color: black;
+            color: black;   
             &:hover{
                 background-color: $secondary-color;
                 color: white;

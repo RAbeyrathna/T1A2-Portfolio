@@ -24,6 +24,10 @@ body, form, fieldset, ol, ul, li, h1, h2, h3, h4, h5, h6, p {
   top: 0;
 }
 
+button {
+  all: unset;
+}
+
 #nav-heading {
   font-weight: 300;
   text-decoration: none;
