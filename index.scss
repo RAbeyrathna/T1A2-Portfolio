@@ -1,7 +1,7 @@
 @import "./styles/defaults/clear-styles.scss";
 @import "./styles/defaults/fonts.scss";
 @import "./styles/defaults/colors.scss";
-@import "./styles/defaults/breakpoints.scss";
+@import "./styles/breakpoints/index-breakpoints";
 @import "./styles/components/navbar.scss";
 @import "./styles/components/section-box";
 @import "./styles/defaults/section-wrapper.scss";
@@ -39,6 +39,7 @@ body {
     width: 100%;
     
 }
+
 
 
 

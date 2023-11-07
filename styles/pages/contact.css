@@ -12,6 +12,16 @@ body, form, fieldset, ol, ul, li, h1, h2, h3, h4, h5, h6, p {
   font-weight: 500;
 }
 
+@media only screen and (max-width: 600px) {
+  #splash-page {
+    background-color: red;
+  }
+}
+@media only screen and (max-width: 600px) {
+  #splash-page {
+    background-color: red;
+  }
+}
 #navbar {
   min-width: 100%;
   max-width: 100%;
@@ -23,26 +33,30 @@ body, form, fieldset, ol, ul, li, h1, h2, h3, h4, h5, h6, p {
   position: sticky;
   top: 0;
 }
-#navbar #nav-heading {
+
+#nav-heading {
   font-weight: 300;
   text-decoration: none;
   color: black;
   font-size: 1.3em;
   padding-left: 20px;
 }
-#navbar .nav-link {
+
+.nav-link {
   width: 50px;
   padding: 12px;
   text-decoration: none;
   color: grey;
   margin: 20px;
 }
-#navbar .nav-link:hover {
+
+.nav-link:hover {
   color: black;
   background-color: rgba(232, 209, 209, 0.435);
   border-radius: 12px;
 }
-#navbar #nav-heading:hover {
+
+#nav-heading:hover {
   color: #F26666;
 }
 
@@ -51,10 +65,6 @@ ul {
   display: flex;
   margin: 0;
   padding: 0;
-}
-
-#blog-link {
-  margin-right: 80px;
 }
 
 #contact-btn, .page-btn {
@@ -70,6 +80,11 @@ ul {
   background-color: #cc5e5e;
 }
 
+@media only screen and (max-width: 600px) {
+  #splash-page {
+    background-color: red;
+  }
+}
 .main-sec {
   display: flex;
   height: 100vh;
