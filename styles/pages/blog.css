@@ -80,6 +80,64 @@ ul {
   background-color: #cc5e5e;
 }
 
+.dropdown {
+  display: none;
+}
+.dropdown .dropdown-content {
+  right: -20px;
+}
+.dropdown a {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+}
+
+@media only screen and (max-width: 682px) {
+  #contact-btn {
+    display: none;
+  }
+  .dropdown {
+    margin-right: 40px;
+    position: relative;
+    display: inline-block;
+    text-decoration: none;
+    margin-right: 20px;
+    padding: 10px 18px;
+    background-color: #F26666;
+    border-radius: 12px;
+    color: #fff;
+    cursor: pointer;
+  }
+  .dropdown:hover {
+    background-color: #cc5e5e;
+  }
+  .dropdown-content {
+    display: none;
+    position: absolute;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+    background-color: white;
+  }
+  .dropdown-content .dropdown-link {
+    text-decoration: none;
+    color: black;
+  }
+  .dropdown-content .dropdown-link:hover {
+    background-color: #F26666;
+    color: white;
+  }
+  .dropdown:hover .dropdown-content {
+    display: block;
+  }
+  #navbar {
+    justify-content: space-between;
+    font-size: 1em;
+  }
+  #navbar ul {
+    display: none;
+  }
+}
 @media only screen and (max-width: 600px) {
   #splash-page {
     background-color: red;
