@@ -43,6 +43,7 @@ body, form, fieldset, ol, ul, li, h1, h2, h3, h4, h5, h6, p {
 }
 
 .nav-link {
+  box-sizing: border-box;
   width: 50px;
   padding: 12px;
   text-decoration: none;
@@ -93,7 +94,7 @@ ul {
   display: block;
 }
 
-@media only screen and (max-width: 682px) {
+@media only screen and (max-width: 700px) {
   #contact-btn {
     display: none;
   }

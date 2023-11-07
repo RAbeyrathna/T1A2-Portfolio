@@ -22,6 +22,7 @@
     }    
 
 .nav-link {
+    box-sizing: border-box;
     width: 50px;
     padding: 12px;
     text-decoration: none;
@@ -60,6 +61,10 @@ color: #fff;
     background-color: #cc5e5e;
 }
 
+// #blog-link{
+//     margin-right: 70px;
+// }
+
 .dropdown{
     display: none;
     .dropdown-content{
@@ -74,7 +79,7 @@ color: #fff;
 }
 
 
-@media only screen and (max-width: 682px) {
+@media only screen and (max-width: 700px) {
     #contact-btn{
         display: none;
     }
