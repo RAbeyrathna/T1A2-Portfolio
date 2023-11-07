@@ -12,9 +12,93 @@ body, form, fieldset, ol, ul, li, h1, h2, h3, h4, h5, h6, p {
   font-weight: 500;
 }
 
-@media only screen and (max-width: 600px) {
-  #splash-page {
-    background-color: red;
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 700px) {
+  body #splash-page {
+    width: 100vw;
+    max-width: 100vw;
+  }
+  body #splash-page #splash-heading {
+    font-size: 5.5em;
+    font-weight: 300;
+    color: #EFDEC0;
+    margin-left: 10%;
+    margin-bottom: 10%;
+    width: 100vw;
+    max-width: 100vw;
+  }
+  body .inner-sec {
+    flex-direction: column;
+    height: 80vh;
+  }
+  body .inner-sec .section-heading {
+    font-size: 2em;
+  }
+  body .inner-sec .section-content {
+    padding: 0;
+  }
+  body .inner-sec .section-img #wai-img {
+    display: block;
+    max-width: 300px;
+    max-height: 300px;
+    width: auto;
+    height: auto;
+    margin-bottom: 20px;
+  }
+  body .inner-sec .section-img #history-img {
+    display: block;
+    max-width: 350px;
+    max-height: 300px;
+    width: auto;
+    height: auto;
+    margin-top: 20px;
+  }
+  body .inner-sec #history-desc {
+    padding: 0;
+  }
+}
+@media only screen and (max-width: 990px) {
+  body #splash-page {
+    width: 100vw;
+    max-width: 100vw;
+  }
+  body #splash-page #splash-heading {
+    font-size: 5.5em;
+    font-weight: 300;
+    color: #EFDEC0;
+    margin-left: 10%;
+    margin-bottom: 10%;
+    width: 100vw;
+    max-width: 100vw;
+  }
+  body .inner-sec {
+    flex-direction: column;
+    height: 80vh;
+  }
+  body .inner-sec .section-heading {
+    font-size: 2em;
+  }
+  body .inner-sec .section-content {
+    padding: 0;
+  }
+  body .inner-sec .section-img #wai-img {
+    display: block;
+    max-width: 300px;
+    max-height: 300px;
+    width: auto;
+    height: auto;
+    margin-bottom: 20px;
+  }
+  body .inner-sec .section-img #history-img {
+    display: block;
+    max-width: 350px;
+    max-height: 300px;
+    width: auto;
+    height: auto;
+    margin-top: 20px;
+  }
+  body .inner-sec #history-desc {
+    padding: 0;
   }
 }
 #navbar {
@@ -134,11 +218,6 @@ ul {
     display: none;
   }
 }
-@media only screen and (max-width: 600px) {
-  #splash-page {
-    background-color: red;
-  }
-}
 .main-sec {
   display: flex;
   height: 100vh;
@@ -196,8 +275,6 @@ body {
 
 .inner-sec {
   background-color: #95C6DB;
-  max-height: 70vh;
-  max-width: 80vw;
 }
 .inner-sec article {
   padding: 40px;

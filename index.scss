@@ -50,8 +50,8 @@ body {
 
 .inner-sec{
     background-color: $bg-box-color;
-    max-height: 70vh;
-    max-width: 80vw;
+    // max-height: 70vh;
+    // max-width: 80vw;
     article {
         padding: 40px;
         justify-content: space-evenly;
@@ -161,3 +161,5 @@ body {
         margin-left: 24px;
     }
 }
+
+

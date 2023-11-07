@@ -1,0 +1,117 @@
+@import "../defaults/colors";
+
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 700px) {
+    body {
+    #splash-page{
+        width: 100vw;
+        max-width: 100vw;
+        #splash-heading {
+            font-size: 5.5em;
+            font-weight: 300;
+            color: #EFDEC0;
+            margin-left: 10%;
+            margin-bottom: 10%;
+            width: 100vw;
+            max-width: 100vw;
+            }
+        }
+    .inner-sec{
+        flex-direction: column;
+        height: 80vh;
+        .section-heading{
+            font-size: 2em;
+        }
+        .section-content{
+            padding: 0;
+        }
+        .section-img{
+            #wai-img {
+                display: block;
+                max-width: 300px;
+                max-height: 300px;
+                width: auto;
+                height: auto;
+                margin-bottom: 20px;
+            }
+            #history-img {
+                display: block;
+                max-width: 350px;
+                max-height: 300px;
+                width: auto;
+                height: auto;
+                margin-top: 20px;
+            }
+        }
+        #history-desc{
+            padding: 0;
+        }
+        }
+    }
+}   
+
+
+@media only screen and (max-width: 990px) {
+    body {
+        #splash-page{
+            width: 100vw;
+            max-width: 100vw;
+            #splash-heading {
+                font-size: 5.5em;
+                font-weight: 300;
+                color: #EFDEC0;
+                margin-left: 10%;
+                margin-bottom: 10%;
+                width: 100vw;
+                max-width: 100vw;
+                }
+            }
+        .inner-sec{
+            flex-direction: column;
+            height: 80vh;
+            .section-heading{
+                font-size: 2em;
+            }
+            .section-content{
+                padding: 0;
+            }
+            .section-img{
+                #wai-img {
+                    display: block;
+                    max-width: 300px;
+                    max-height: 300px;
+                    width: auto;
+                    height: auto;
+                    margin-bottom: 20px;
+                }
+                #history-img {
+                    display: block;
+                    max-width: 350px;
+                    max-height: 300px;
+                    width: auto;
+                    height: auto;
+                    margin-top: 20px;
+                }
+            }
+            #history-desc{
+                padding: 0;
+            }
+            }
+        }
+}
+
+// /* Small devices (portrait tablets and large phones, 600px and up) */
+// @media only screen and (min-width: 600px) {...}
+
+
+
+// /* Medium devices (landscape tablets, 768px and up) */
+// @media only screen and (min-width: 768px) {...}
+
+
+// /* Large devices (laptops/desktops, 992px and up) */
+// @media only screen and (min-width: 992px) {...}
+
+
+// /* Extra large devices (large laptops and desktops, 1200px and up) */
+// @media only screen and (min-width: 1200px) {...}

@@ -12,16 +12,6 @@ body, form, fieldset, ol, ul, li, h1, h2, h3, h4, h5, h6, p {
   font-weight: 500;
 }
 
-@media only screen and (max-width: 600px) {
-  #splash-page {
-    background-color: red;
-  }
-}
-@media only screen and (max-width: 600px) {
-  #splash-page {
-    background-color: red;
-  }
-}
 #navbar {
   min-width: 100%;
   max-width: 100%;
@@ -137,11 +127,6 @@ ul {
   }
   #navbar ul {
     display: none;
-  }
-}
-@media only screen and (max-width: 600px) {
-  #splash-page {
-    background-color: red;
   }
 }
 .main-sec {
