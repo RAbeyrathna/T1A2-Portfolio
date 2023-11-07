@@ -71,6 +71,10 @@ ul {
   background-color: #cc5e5e;
 }
 
+#contact-btn:active {
+  background-color: #cc5e5e;
+}
+
 .dropdown {
   display: none;
 }
@@ -103,6 +107,9 @@ ul {
   .dropdown:hover {
     background-color: #cc5e5e;
   }
+  .dropdown:active {
+    background-color: #cc5e5e;
+  }
   .dropdown-content {
     display: none;
     position: absolute;
@@ -118,7 +125,14 @@ ul {
     background-color: #F26666;
     color: white;
   }
+  .dropdown-content .dropdown-link:active {
+    background-color: #F26666;
+    color: white;
+  }
   .dropdown:hover .dropdown-content {
+    display: block;
+  }
+  .dropdown:active .dropdown-content {
     display: block;
   }
   #navbar {

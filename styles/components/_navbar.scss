@@ -1,5 +1,6 @@
 @import "../defaults/colors";
 
+
 #navbar{
     min-width: 100%;
     max-width: 100%;
@@ -60,6 +61,10 @@ color: #fff;
     background-color: #cc5e5e;
 }
 
+#contact-btn:active {
+    background-color: #cc5e5e;
+}
+
 // #blog-link{
 //     margin-right: 70px;
 // }
@@ -96,6 +101,9 @@ color: #fff;
         &:hover{
             background-color: #cc5e5e;
         }
+        &:active{
+            background-color: #cc5e5e;
+        }
       }
       .dropdown-content {
         display: none;
@@ -110,10 +118,17 @@ color: #fff;
                 background-color: $secondary-color;
                 color: white;
             }
+            &:active{
+                background-color: $secondary-color;
+                color: white;
+            }
         }
       }
       
       .dropdown:hover .dropdown-content {
+        display: block;
+      }
+      .dropdown:active .dropdown-content {
         display: block;
       }
     #navbar{
