@@ -1,21 +1,226 @@
 @import "../defaults/colors";
 
 /* Larger Desktop Screens Styling */
-@media only screen and (min-width: 1200px) {
-
+@media only screen and (min-width: 1400px) {
+    .section-wrapper{
+        .main-sec{
+            .inner-sec{
+                padding: 30px;
+                .section-heading{
+                    font-size: 2.3em;
+                    margin: 0px;
+                }
+                p{
+                    font-size: 1.1em;
+                }
+                .link-wrapper{
+                    flex-wrap: wrap;
+                .icon-img{
+                    height: 100px;
+                    width: 100px;
+                }
+                .link-box{
+                    margin: 15px;
+                    height: auto;
+                    width: 25%;
+                    .page-btn{
+                        display: block;
+                        font-size: .9em;
+                        width: 100px;
+                        height: 15px;
+                    }
+                    .resume-btn{
+                        width: 130px;
+                        font-size: .9em;
+                    }
+                }
+                }
+                #resume-img{
+                    width: 145px;
+                    height: 145px;
+                    margin-bottom: 0px;
+                }
+            }
+        }
+    }
     }
 
-/* Laptop - Desktop Styling */
-@media only screen and (max-width: 1200px) {
-
+/* Laptop / Desktop Styling */
+@media only screen and (max-width: 1400px) {
+    .section-wrapper{
+        .main-sec{
+            .inner-sec{
+                padding: 30px;
+                .section-heading{
+                    font-size: 2em;
+                    margin: 0px;
+                }
+                p{
+                    font-size: .9em;
+                }
+                .link-wrapper{
+                .icon-img{
+                    height: 70px;
+                    width: 70px;
+                }
+                .link-box{
+                    margin: 15px;
+                    height: auto;
+                    width: 40%;
+                    .page-btn{
+                        display: block;
+                        font-size: .9em;
+                        width: 100px;
+                        height: 15px;
+                    }
+                    .resume-btn{
+                        font-size: .7em;
+                    }
+                }
+                }
+                #resume-img{
+                    width: 110px;
+                    height: 110px;
+                    margin-bottom: 0px;
+                }
+            }
+        }
+    }
 }
 
 /* Tablet to Desktop styles */
-@media only screen and (max-width: 1000px) {
-
+@media only screen and (max-width: 1400px) {
+    .section-wrapper{
+        .main-sec{
+            height: 90vh;
+            .inner-sec{
+                height: 70vh;
+                padding: 30px;
+                .section-heading{
+                    font-size: 1.7em;
+                    margin: 0px;
+                }
+                p{
+                    font-size: .9em;
+                }
+                .link-wrapper{
+                .icon-img{
+                    height: 70px;
+                    width: 70px;
+                }
+                .link-box{
+                    margin: 15px;
+                    height: auto;
+                    width: 40%;
+                    .page-btn{
+                        display: block;
+                        font-size: .9em;
+                        width: 100px;
+                        height: 15px;
+                    }
+                    .resume-btn{
+                        font-size: .7em;
+                    }
+                }
+                }
+                #resume-img{
+                    width: 110px;
+                    height: 110px;
+                    margin-bottom: 0;
+                }
+            }
+        }
+    }
 }
 
 /* Phone to Tablet Styles */
-@media only screen and (max-width: 600px) {
+@media only screen and (max-width: 750px) {
+    .section-wrapper{
+            height: 90vh;
+        .main-sec{
+            .inner-sec{
+                  height: 70vh;
+                padding: 30px;
+                .section-heading{
+                    font-size: 1.7em;
+                    margin: 0px;
+                }
+                p{
+                    font-size: .9em;
+                }
+                .link-wrapper{
+                .icon-img{
+                    height: 50px;
+                    width: 50px;
+                }
+                .link-box{
+                    margin: 15px;
+                    height: auto;
+                    width: 40%;
+                    .page-btn{
+                        display: block;
+                        font-size: .9em;
+                        width: 100px;
+                        height: 15px;
+                    }
+                    .resume-btn{
+                        font-size: .7em;
+                    }
+                }
+                }
+                #resume-img{
+                    width: 90px;
+                    height: 90px;
+                    margin-bottom: 0px;
+                }
+            }
+        }
+    }
+}
 
+
+@media only screen and (max-width: 430px) {
+    .section-wrapper{
+        .main-sec{
+            height: 80vh;
+            .inner-sec{
+            height: 60vh;
+                padding: 30px;
+                .section-heading{
+                    font-size: 1.4em;
+                    margin: 0px;
+                }
+                p{
+                    font-size: .8em;
+                }
+                .link-wrapper{
+                .icon-img{
+                    height: 50px;
+                    width: 50px;
+                }
+                .link-box{
+                    margin: 15px;
+                    height: auto;
+                    width: 30%;
+                    .page-btn{
+                        display: flex;
+                        justify-content: center;
+                        align-items: center;
+                        font-size: .7em;
+                        width: 50px;
+                        height: 20px;
+                    }
+                    .resume-btn{
+                        font-size: .6em;
+                    }
+                }
+                }
+                #resume-img{
+                    width: 90px;
+                    height: 90px;
+                    margin-bottom: 0;
+                }
+            }
+        }
+    }
 }
