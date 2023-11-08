@@ -274,6 +274,7 @@ body, form, fieldset, ol, ul, li, h1, h2, h3, h4, h5, h6, p {
     width: 100vw;
   }
   body #skills .skill-wrapper .skill-item {
+    margin-bottom: 20px;
     width: 100%;
   }
   body #skills .skill-wrapper .skill-item p {
@@ -282,6 +283,7 @@ body, form, fieldset, ol, ul, li, h1, h2, h3, h4, h5, h6, p {
   body #skills .skill-wrapper .skill-heading {
     margin-top: 20px;
     font-size: 1.2em;
+    height: 20px;
     font-weight: 500;
   }
   body #skills .skill-wrapper .skill-desc {
