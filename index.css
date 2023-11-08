@@ -496,6 +496,9 @@ footer .social-links img {
   height: auto;
   margin-left: 20px;
 }
+footer .social-links #twitter-icon {
+  margin-top: 2px;
+}
 
 .main-sec {
   display: flex;
