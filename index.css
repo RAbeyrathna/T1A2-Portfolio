@@ -117,6 +117,7 @@ body, form, fieldset, ol, ul, li, h1, h2, h3, h4, h5, h6, p {
     display: inline-block;
     min-width: 80px;
     width: 50%;
+    margin-bottom: 10px;
   }
   body #interest .link-wrapper img {
     max-width: 60px;
@@ -318,6 +319,12 @@ footer .social-links img {
   align-items: center;
 }
 
+html {
+  scroll-snap-type: y proximity;
+  height: 100vh;
+  scroll-padding: 10px;
+}
+
 body {
   background-color: #B7DAE9;
 }
@@ -331,6 +338,7 @@ body {
   height: 100vh;
   width: 100%;
   display: flex;
+  justify-content: flex-start;
   align-items: center;
 }
 #splash-page #splash-heading {
@@ -343,6 +351,8 @@ body {
 }
 
 .main-sec {
+  scroll-snap-align: start;
+  scroll-snap-stop: normal;
   background-color: #B7DAE9;
   max-width: 100%;
 }
@@ -412,6 +422,7 @@ body {
   display: flex;
   flex-direction: column;
   text-align: center;
+  padding-bottom: 0;
 }
 #interest .section-heading {
   margin-bottom: 5%;
@@ -452,4 +463,8 @@ body {
 }
 .link-wrapper #blog-img {
   margin-left: 24px;
+}
+
+footer {
+  margin: 0;
 }/*# sourceMappingURL=index.css.map */

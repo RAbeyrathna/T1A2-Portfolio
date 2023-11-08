@@ -7,6 +7,12 @@
 @import "./styles/components/section-box";
 @import "./styles/defaults/section-wrapper.scss";
 
+html{
+    scroll-snap-type: y proximity;
+    height: 100vh;
+    scroll-padding: 10px;
+}
+
 body {
     background-color: $primary-color;
 }
@@ -20,14 +26,13 @@ body {
     background-color: #cc5e5e;
 }
 
-
-
 //Spash Page Component
 #splash-page{
     background-color: $secondary-color;
     height: 100vh;
     width: 100%;
     display: flex;
+    justify-content: flex-start;
     align-items: center;
     #splash-heading {
         font-size: 7em;
@@ -43,6 +48,8 @@ body {
 
 //Main Section Component Styling
 .main-sec{
+    scroll-snap-align: start;
+    scroll-snap-stop: normal;
     background-color: $primary-color;
     max-width: 100%;
 }
@@ -127,6 +134,7 @@ body {
         height: 100px;
         width: 100px;
     }
+        padding-bottom: 0;
   }
 
  //Used to wrap links in "Interest" section so can be manipulated with flexbox 
@@ -161,3 +169,6 @@ body {
 }
 
 
+footer{
+    margin:0;
+}
