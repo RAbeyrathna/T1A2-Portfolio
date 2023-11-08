@@ -319,12 +319,6 @@ footer .social-links img {
   align-items: center;
 }
 
-html {
-  scroll-snap-type: y proximity;
-  height: 100vh;
-  scroll-padding: 10px;
-}
-
 body {
   background-color: #B7DAE9;
 }
@@ -333,6 +327,7 @@ body {
   background-color: #cc5e5e;
 }
 
+/* Spash Page Component */
 #splash-page {
   background-color: #F26666;
   height: 100vh;
@@ -350,9 +345,8 @@ body {
   width: 100%;
 }
 
+/* Main Section Component Styling */
 .main-sec {
-  scroll-snap-align: start;
-  scroll-snap-stop: normal;
   background-color: #B7DAE9;
   max-width: 100%;
 }
@@ -436,6 +430,7 @@ body {
   width: 100px;
 }
 
+/* Used to wrap links in "Interest" section so can be manipulated with flexbox */
 .link-wrapper {
   display: flex;
 }
