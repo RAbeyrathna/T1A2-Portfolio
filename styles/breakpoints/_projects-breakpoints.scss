@@ -1,21 +1,53 @@
 @import "../defaults/colors";
 
-/* Larger Desktop Screens Styling */
-@media only screen and (min-width: 1200px) {
-
-    }
-
-/* Laptop / Desktop Styling */
-@media only screen and (max-width: 1200px) {
-
-}
-
 /* Tablet to Desktop styles */
 @media only screen and (max-width: 1000px) {
-
+    body{
+        .page-heading {
+            font-size: .8em;
+            p {
+                font-size: 1.1em;
+            }
+        }
+        .inner-sec{
+            .project-heading{
+                font-size: 1.5em;
+            }
+            .project-year{
+                font-size: .9em;
+            }
+            .project-description{
+                font-size: .9em;
+            }
+            .project-url{
+                font-size: .9em;
+            }
+        }
+    }
 }
 
 /* Phone to Tablet Styles */
-@media only screen and (max-width: 600px) {
-
+@media only screen and (max-width: 500px) {
+    body{
+    .page-heading {
+        font-size: .7em;
+        p {
+            font-size: 1.2em;
+        }
+    }
+    .inner-sec{
+        .project-heading{
+            font-size: 1.5em;
+        }
+        .project-year{
+            font-size: .9em;
+        }
+        .project-description{
+            font-size: .8em;
+        }
+        .project-url{
+            font-size: .8em;
+        }
+    }
+}
 }

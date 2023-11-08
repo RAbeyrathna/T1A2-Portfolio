@@ -12,10 +12,48 @@ body, form, fieldset, ol, ul, li, h1, h2, h3, h4, h5, h6, p {
   font-weight: 500;
 }
 
-/* Larger Desktop Screens Styling */
-/* Laptop / Desktop Styling */
 /* Tablet to Desktop styles */
+@media only screen and (max-width: 1000px) {
+  body .page-heading {
+    font-size: 0.8em;
+  }
+  body .page-heading p {
+    font-size: 1.1em;
+  }
+  body .inner-sec .project-heading {
+    font-size: 1.5em;
+  }
+  body .inner-sec .project-year {
+    font-size: 0.9em;
+  }
+  body .inner-sec .project-description {
+    font-size: 0.9em;
+  }
+  body .inner-sec .project-url {
+    font-size: 0.9em;
+  }
+}
 /* Phone to Tablet Styles */
+@media only screen and (max-width: 500px) {
+  body .page-heading {
+    font-size: 0.7em;
+  }
+  body .page-heading p {
+    font-size: 1.2em;
+  }
+  body .inner-sec .project-heading {
+    font-size: 1.5em;
+  }
+  body .inner-sec .project-year {
+    font-size: 0.9em;
+  }
+  body .inner-sec .project-description {
+    font-size: 0.8em;
+  }
+  body .inner-sec .project-url {
+    font-size: 0.8em;
+  }
+}
 #navbar {
   min-width: 100%;
   max-width: 100%;
