@@ -12,6 +12,7 @@ body, form, fieldset, ol, ul, li, h1, h2, h3, h4, h5, h6, p {
   font-weight: 500;
 }
 
+/* Larger Desktop Screens Styling */
 @media only screen and (min-width: 1200px) {
   body #skills .skill-wrapper .skill-heading {
     font-size: 1.8em;
@@ -24,7 +25,7 @@ body, form, fieldset, ol, ul, li, h1, h2, h3, h4, h5, h6, p {
     font-size: 0.9em;
   }
 }
-/* Laptop - Desktop Styling */
+/* Laptop / Desktop Styling */
 @media only screen and (max-width: 1200px) {
   body {
     font-size: 1.2em;

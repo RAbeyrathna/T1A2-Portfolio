@@ -12,6 +12,10 @@ body, form, fieldset, ol, ul, li, h1, h2, h3, h4, h5, h6, p {
   font-weight: 500;
 }
 
+/* Larger Desktop Screens Styling */
+/* Laptop - Desktop Styling */
+/* Tablet to Desktop styles */
+/* Phone to Tablet Styles */
 #navbar {
   min-width: 100%;
   max-width: 100%;
