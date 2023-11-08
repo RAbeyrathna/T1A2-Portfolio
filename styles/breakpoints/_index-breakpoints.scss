@@ -54,6 +54,9 @@
         }
         }
         #skills{
+            .section-heading{
+                margin: 0;
+            }
             .skill-wrapper{
             flex-direction: column;
             text-align: center;
@@ -66,7 +69,8 @@
             }
             .skill-heading{
                 margin-top: 20px;
-                font-size: 1.4em;
+                font-size: 1.2em;
+                font-weight: 500;
             }
             .skill-desc{
                 font-size: .95em;
