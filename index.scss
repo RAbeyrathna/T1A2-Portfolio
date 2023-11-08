@@ -22,28 +22,26 @@ body {
 
 
 
-
+//Spash Page Component
 #splash-page{
     background-color: $secondary-color;
     height: 100vh;
     width: 100%;
     display: flex;
     align-items: center;
+    #splash-heading {
+        font-size: 7em;
+        font-weight: 300;
+        color: #EFDEC0;
+        margin-left: 10%;
+        margin-bottom: 10%;
+        width: 100%;
+        
+    }
 }
 
-#splash-heading {
-    font-size: 7em;
-    font-weight: 300;
-    color: #EFDEC0;
-    margin-left: 10%;
-    margin-bottom: 10%;
-    width: 100%;
-    
-}
 
-
-
-
+//Main Section Component Styling
 .main-sec{
     background-color: $primary-color;
     max-width: 100%;
@@ -81,8 +79,6 @@ body {
         margin: 20px;
     }
 }
-
-
 
 
 #skills{
@@ -133,6 +129,7 @@ body {
     }
   }
 
+ //Used to wrap links in "Interest" section so can be manipulated with flexbox 
 .link-wrapper{
     display: flex;
 

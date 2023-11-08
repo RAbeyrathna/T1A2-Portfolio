@@ -333,8 +333,7 @@ body {
   display: flex;
   align-items: center;
 }
-
-#splash-heading {
+#splash-page #splash-heading {
   font-size: 7em;
   font-weight: 300;
   color: #EFDEC0;
