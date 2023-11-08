@@ -1,7 +1,248 @@
 @import "../defaults/colors";
 
-/* Extra small devices (phones, 600px and down) */
-@media only screen and (max-width: 700px) {
+@media only screen and (min-width: 1200px) {
+    body{
+        #skills{
+        .skill-wrapper{
+        .skill-heading{
+            font-size: 1.8em;
+        }
+        .skill-item{
+            width: 32%;
+        }
+        .skill-desc{
+            margin-top: 10px;
+            font-size: .9em;
+        }
+        }
+    }
+    }
+    }
+
+/* Laptop - Desktop Styling */
+@media only screen and (max-width: 1200px) {
+    body {
+        font-size: 1.2em;
+    #splash-page{
+        #splash-heading {
+            font-size: 5em;
+            font-weight: 300;
+            margin-left: 5%;
+            margin-bottom: 20%;
+            width: 100%;
+            max-width: 100;
+            }
+        }
+    .inner-sec{
+        .section-heading{
+            font-size: 1.8em;
+        }
+        .section-img{
+            #wai-img {
+                display: block;
+                max-width: 400px;
+                max-height: 400px;
+                width: auto;
+                height: auto;
+                margin-bottom: 20px;
+            }
+            #history-img {
+                display: block;
+                max-width: 400px;
+                max-height: 400px;
+                width: auto;
+                height: auto;
+                margin-top: 20px;
+            }
+        }
+    }
+    #skills{
+        .skill-wrapper{
+            .skill-heading{
+              font-size: 1.1em;
+              height: 50px;
+        }
+        .skill-item{
+            width: 30%;
+        }
+        .skill-desc{
+            margin-top: 10px;
+            font-size: .9em;
+            text-align: center;
+        }
+    }
+    #ca-img {
+        display: block;
+        max-width: 400px;
+        max-height: 400px;
+        width: auto;
+        height: auto;
+        margin-top: 20px;
+    }
+    }
+    }
+}
+
+/* Tablet to Desktop styles */
+@media only screen and (max-width: 1000px) {
+    body {
+        font-size: 1em;
+    #splash-page{
+        #splash-heading {
+            font-size: 5em;
+            font-weight: 300;
+            color: #EFDEC0;
+            width: 100%;
+            }
+        }
+    .inner-sec{
+        height: 100%;
+        flex-direction: column;
+        height: 80vh;
+        padding: 20px 5vw;
+        border-radius: 12px;
+        justify-content: space-evenly;
+        .section-heading{
+            font-size: 1.7em;
+            text-align: center;
+        }
+        .section-content{
+            padding: 0;
+            font-size: .95em;
+            text-align: center;
+        }
+        .section-img{
+            #wai-img {
+                display: block;
+                max-width: 300px;
+                max-height: 300px;
+                width: auto;
+                height: auto;
+                margin-bottom: 20px;
+            }
+            #history-img {
+                display: block;
+                max-width: 450px;
+                max-height: 500px;
+                width: auto;
+                height: auto;
+                margin-top: 20px;
+            }
+        }
+        #history-desc{
+            padding: 0;
+        }
+        }
+        #skills{
+            height: 100%;
+            .section-heading{
+                margin: 0;
+            }
+            .skill-wrapper{
+            flex-direction: column;
+            text-align: center;
+            justify-content: space-between;
+            width: 100vw;
+            .skill-item{
+                p{
+                    padding: 0px 10%;
+                }
+            }
+            .skill-heading{
+                margin-top: 20px;
+                font-size: 1.2em;
+                font-weight: 500;
+            }
+            .skill-desc{
+                font-size: .95em;
+            }
+        }
+        #ca-img {
+            display: block;
+            max-width: 300px;
+            max-height: 200px;
+            width: auto;
+            height: auto;
+            margin-top: 20px;
+        }
+        }
+        #interest{
+            justify-content: space-evenly;
+            .spacer{
+                max-height: 20px
+            }
+            .link-wrapper{
+                flex-wrap: nowrap;
+                justify-content: center;
+                flex-direction: row;
+                flex-wrap: wrap;
+                .link-box{
+                    justify-content: center;
+                    align-items: center;
+                    margin: 0px;
+                    width: 40%;
+                    margin: 0px 10px;
+                    a{
+                        text-align: center;
+                    }
+                }
+                .page-btn{
+                    display: inline-block;
+                    min-width: 80px;
+                    width: 55%;
+                    margin-bottom: 10px;
+                }             
+                img{
+                    max-width: 60px;
+                    height: auto;
+                    margin: 0;
+                    margin-bottom: 20px;
+                }
+                // #email-img{
+                //     margin-left: 18px;
+                // }
+                // #projects-img{
+                //     margin-left: 22px;
+                // }
+
+                #blog-img{
+                    margin: 10px;
+                    margin-left: 20px;
+                }
+            }
+        }
+    }
+}   
+
+
+@media only screen and (max-width: 1000px) {
+    body{
+        .inner-sec{
+            .section-img{
+                #history-img {
+                    display: block;
+                    max-width: 300px;
+                    max-height: 300px;
+                    width: auto;
+                    height: auto;
+                    margin-top: 20px;
+                }
+            }
+        }
+        #skills{
+            .skill-wrapper{
+            .skill-item{
+               width: 100%;
+            }
+        }
+    }
+    }
+}
+
+
+
+/* Phone to Tablet Styles */
+@media only screen and (max-width: 600px) {
     body {
         font-size: .9em;
     #splash-page{
@@ -54,18 +295,21 @@
         }
         }
         #skills{
+            height: 100%;
             .section-heading{
                 margin: 0;
             }
             .skill-wrapper{
             flex-direction: column;
             text-align: center;
+            align-items: center;
             justify-content: space-between;
             width: 100vw;
             .skill-item{
                 p{
-                    padding: 0px 30px;
+                    padding: 0px 10%;
                 }
+               width: 100%;
             }
             .skill-heading{
                 margin-top: 20px;
@@ -74,12 +318,13 @@
             }
             .skill-desc{
                 font-size: .95em;
+
             }
         }
         #ca-img {
             display: block;
-            max-width: 250px;
-            max-height: 220px;
+            max-width: 200px;
+            max-height: 200px;
             width: auto;
             height: auto;
             margin-top: 20px;
@@ -131,7 +376,6 @@
         }
     }
 }   
-
 
 
 // /* Small devices (portrait tablets and large phones, 600px and up) */
