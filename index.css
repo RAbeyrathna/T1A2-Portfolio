@@ -37,24 +37,26 @@ body, form, fieldset, ol, ul, li, h1, h2, h3, h4, h5, h6, p {
     border-radius: 12px;
   }
   body .inner-sec .section-heading {
-    font-size: 2em;
+    font-size: 1.7em;
     text-align: center;
   }
   body .inner-sec .section-content {
     padding: 0;
+    font-size: 0.95em;
+    text-align: center;
   }
   body .inner-sec .section-img #wai-img {
     display: block;
-    max-width: 300px;
-    max-height: 300px;
+    max-width: 220px;
+    max-height: 220px;
     width: auto;
     height: auto;
     margin-bottom: 20px;
   }
   body .inner-sec .section-img #history-img {
     display: block;
-    max-width: 350px;
-    max-height: 300px;
+    max-width: 220px;
+    max-height: 220px;
     width: auto;
     height: auto;
     margin-top: 20px;
@@ -73,7 +75,18 @@ body, form, fieldset, ol, ul, li, h1, h2, h3, h4, h5, h6, p {
   }
   body #skills .skill-wrapper .skill-heading {
     margin-top: 20px;
-    font-size: 1.5em;
+    font-size: 1.4em;
+  }
+  body #skills .skill-wrapper .skill-desc {
+    font-size: 0.95em;
+  }
+  body #skills #ca-img {
+    display: block;
+    max-width: 250px;
+    max-height: 220px;
+    width: auto;
+    height: auto;
+    margin-top: 20px;
   }
   body #interest {
     justify-content: space-evenly;
@@ -108,7 +121,8 @@ body, form, fieldset, ol, ul, li, h1, h2, h3, h4, h5, h6, p {
     margin-bottom: 20px;
   }
   body #interest .link-wrapper #blog-img {
-    margin-left: 10px;
+    margin: 10px;
+    margin-left: 20px;
   }
 }
 #navbar {

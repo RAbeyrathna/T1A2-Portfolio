@@ -23,25 +23,27 @@
         padding: 20px 5vw;
         border-radius: 12px;
         .section-heading{
-            font-size: 2em;
+            font-size: 1.7em;
             text-align: center;
         }
         .section-content{
             padding: 0;
+            font-size: .95em;
+            text-align: center;
         }
         .section-img{
             #wai-img {
                 display: block;
-                max-width: 300px;
-                max-height: 300px;
+                max-width: 220px;
+                max-height: 220px;
                 width: auto;
                 height: auto;
                 margin-bottom: 20px;
             }
             #history-img {
                 display: block;
-                max-width: 350px;
-                max-height: 300px;
+                max-width: 220px;
+                max-height: 220px;
                 width: auto;
                 height: auto;
                 margin-top: 20px;
@@ -64,8 +66,19 @@
             }
             .skill-heading{
                 margin-top: 20px;
-                font-size: 1.5em;
+                font-size: 1.4em;
             }
+            .skill-desc{
+                font-size: .95em;
+            }
+        }
+        #ca-img {
+            display: block;
+            max-width: 250px;
+            max-height: 220px;
+            width: auto;
+            height: auto;
+            margin-top: 20px;
         }
         }
         #interest{
@@ -106,7 +119,8 @@
                 // }
 
                 #blog-img{
-                    margin-left: 10px;
+                    margin: 10px;
+                    margin-left: 20px;
                 }
             }
         }
