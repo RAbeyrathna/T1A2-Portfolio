@@ -291,13 +291,13 @@ ul {
 
 @media only screen and (max-width: 600px) {
   #nav-heading {
-    font-size: 1.1em;
+    font-size: 17px;
   }
   .dropdown {
-    font-size: 0.8em;
+    font-size: 13px;
   }
   .dropdown-content {
-    font-size: 0.95em;
+    font-size: 13px;
     min-width: 100px;
   }
 }
