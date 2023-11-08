@@ -16,6 +16,20 @@ body, form, fieldset, ol, ul, li, h1, h2, h3, h4, h5, h6, p {
 /* Laptop / Desktop Styling */
 /* Tablet to Desktop styles */
 /* Phone to Tablet Styles */
+@media only screen and (max-width: 600px) {
+  body h1 {
+    font-size: 1.5em;
+  }
+  body .blog-post {
+    width: 100%;
+  }
+  body .blog-post .inner-blog {
+    flex-direction: column;
+  }
+  body .reverse-blog {
+    flex-direction: column;
+  }
+}
 #navbar {
   min-width: 100%;
   max-width: 100%;

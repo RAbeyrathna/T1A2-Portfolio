@@ -17,4 +17,34 @@
 
 /* Phone to Tablet Styles */
 @media only screen and (max-width: 600px) {
+    body{
+        h1{
+            font-size: 1.5em;
+        }
+        .blog-post{
+            width: 100%;
+            .inner-blog{
+                flex-direction: column;
+                .blog-img{
+                }
+            }
+        .blog-content{
+            .blog-heading{
+            }
+            .blog-year{
+            }
+            .blog-description{
+
+            }
+         }
+        }
+        .reverse-blog {
+            flex-direction: column;
+            .blog-content{
+        }
+        }
+        .single{
+
+        }
+    }
 }
