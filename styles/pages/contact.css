@@ -289,6 +289,18 @@ ul {
   display: block;
 }
 
+@media only screen and (max-width: 600px) {
+  #nav-heading {
+    font-size: 1.1em;
+  }
+  .dropdown {
+    font-size: 0.8em;
+  }
+  .dropdown-content {
+    font-size: 0.95em;
+    min-width: 100px;
+  }
+}
 @media only screen and (max-width: 700px) {
   #contact-btn, .page-btn {
     display: none;
