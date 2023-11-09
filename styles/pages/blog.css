@@ -207,6 +207,9 @@ body, form, fieldset, ol, ul, li, h1, h2, h3, h4, h5, h6, p {
     margin: 0;
     height: 32%;
   }
+  body .single:last-of-type {
+    margin-bottom: 100px;
+  }
 }
 #navbar {
   min-width: 100%;

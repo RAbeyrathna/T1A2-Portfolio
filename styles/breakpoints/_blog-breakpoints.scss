@@ -214,6 +214,9 @@
                     height: 32%
                 }
             }
+            &:last-of-type{
+                margin-bottom: 100px;
+            }
         }
     }
 }
