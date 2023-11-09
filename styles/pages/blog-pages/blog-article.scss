@@ -16,6 +16,7 @@ body {
 
 .page-btn {
     @extend #contact-btn;
+    display: block;
 }
 
 #section-bg{

@@ -3,10 +3,14 @@
 /* Tablet to Desktop styles */
 @media only screen and (max-width: 1000px) {
     body{
+        .page-btn{
+            font-size: 15px;
+        }
         .page-heading {
             h1 {
                 font-size: 1.6em;
             }
+
         }
         .main-content{
             .blog-article{
@@ -21,6 +25,9 @@
 /* Phone to Tablet Styles */
 @media only screen and (max-width: 500px) {
     body{
+        .page-btn{
+            font-size: 12px;
+        }
         .page-heading {
             h1 {
                 font-size: 1.3em;

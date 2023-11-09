@@ -14,6 +14,9 @@ body, form, fieldset, ol, ul, li, h1, h2, h3, h4, h5, h6, p {
 
 /* Tablet to Desktop styles */
 @media only screen and (max-width: 1000px) {
+  body .page-btn {
+    font-size: 15px;
+  }
   body .page-heading h1 {
     font-size: 1.6em;
   }
@@ -23,6 +26,9 @@ body, form, fieldset, ol, ul, li, h1, h2, h3, h4, h5, h6, p {
 }
 /* Phone to Tablet Styles */
 @media only screen and (max-width: 500px) {
+  body .page-btn {
+    font-size: 12px;
+  }
   body .page-heading h1 {
     font-size: 1.3em;
   }
@@ -240,6 +246,10 @@ body {
   display: flex;
   flex-direction: column;
   align-items: center;
+}
+
+.page-btn {
+  display: block;
 }
 
 #section-bg {
