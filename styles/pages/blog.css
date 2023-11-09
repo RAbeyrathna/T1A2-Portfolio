@@ -484,6 +484,7 @@ h1 {
   font-weight: 200;
   font-size: 0.9em;
   margin: 5px 0;
+  font-style: italic;
 }
 .blog-post .blog-content .blog-description {
   color: grey;
