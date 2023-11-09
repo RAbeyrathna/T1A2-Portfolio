@@ -41,6 +41,9 @@ body, form, fieldset, ol, ul, li, h1, h2, h3, h4, h5, h6, p {
   body .page-heading p {
     font-size: 1.2em;
   }
+  body .inner-sec {
+    padding: 0;
+  }
   body .inner-sec .project-heading {
     font-size: 1.5em;
   }
