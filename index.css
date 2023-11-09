@@ -547,7 +547,7 @@ body {
   background-color: #cc5e5e;
 }
 
-/* Spash Page Component */
+/* Spash Page Component Styling */
 #splash-page {
   background-color: #F26666;
   height: 100vh;
@@ -560,12 +560,12 @@ body {
   font-size: 7em;
   font-weight: 300;
   color: #EFDEC0;
-  margin-left: 10%;
+  margin-left: 8%;
   margin-bottom: 10%;
   width: 100%;
 }
 
-/* Main Section Component Styling */
+/* Main Section Text Component Styling */
 .main-sec {
   background-color: #B7DAE9;
   max-width: 100%;
@@ -602,6 +602,7 @@ body {
   margin: 20px;
 }
 
+/* Skills Section Styling */
 #skills {
   flex-direction: column;
   justify-content: space-around;
@@ -636,6 +637,7 @@ body {
   width: 200px;
 }
 
+/* Interest Section Styling */
 #interest {
   display: flex;
   flex-direction: column;
