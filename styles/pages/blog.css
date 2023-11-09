@@ -198,14 +198,14 @@ body, form, fieldset, ol, ul, li, h1, h2, h3, h4, h5, h6, p {
     flex-direction: column;
   }
   body .single {
-    margin-bottom: 20px;
+    margin-top: 12%;
   }
   body .single .inner-blog {
     flex-direction: column;
   }
   body .single .inner-blog .blog-content {
     margin: 0;
-    height: 35%;
+    height: 32%;
   }
 }
 #navbar {
