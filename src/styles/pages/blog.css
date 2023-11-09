@@ -404,8 +404,8 @@ footer .social-links img {
   height: auto;
   margin-left: 20px;
 }
-footer .social-links #twitter-icon {
-  margin-top: 2px;
+footer .icons8-link {
+  color: rgb(238, 166, 166);
 }
 
 /* Colour variables defined here */

@@ -1,11 +1,11 @@
-@import "./styles/defaults/clear-styles.scss";
-@import "./styles/defaults/fonts.scss";
-@import "./styles/defaults/colors.scss";
-@import "./styles/breakpoints/index-breakpoints";
-@import "./styles/components/navbar.scss";
-@import "./styles/components/footer";
-@import "./styles/components/section-box";
-@import "./styles/defaults/section-wrapper.scss";
+@import "..//defaults/clear-styles.scss";
+@import "../defaults/fonts.scss";
+@import "../defaults/colors.scss";
+@import "../breakpoints/index-breakpoints";
+@import "../components/navbar.scss";
+@import "../components/footer";
+@import "../components/section-box";
+@import "../defaults/section-wrapper.scss";
 
 body {
     background-color: $primary-color;
