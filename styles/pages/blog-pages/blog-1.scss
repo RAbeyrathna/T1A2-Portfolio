@@ -1,0 +1,64 @@
+@import "../../defaults/clear-styles.scss";
+@import "../../defaults/fonts";
+@import "../../defaults/colors.scss";
+@import "../../breakpoints/blog-article-breakpoints";
+@import "../../components/navbar.scss";
+@import "../../components/footer";
+@import "../../components/section-box";
+@import "../../defaults/section-wrapper.scss";
+
+body {
+    background-color: $primary-color;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.page-btn {
+    @extend #contact-btn;
+}
+
+#section-bg{
+    display: flex;
+    flex-direction: column;
+    width: 80vw;
+    background-color: #84c0da65;
+    border-radius: 12px;
+    margin-top: 20px;
+}
+
+.page-heading {
+    margin-top: 30px;
+    text-align: center;
+    h1{
+        font-weight: 500;
+    }
+}
+
+.main-content{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    p {
+        margin-top: 3%;
+        // text-align: center;
+        padding: 0% 10%;
+        margin-bottom: 50px;
+    }
+    padding-bottom: 5%;
+}
+
+.img-sec{
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    img {
+        display: block;
+        border-radius: 12px;
+        max-width: 80vw;
+        max-height: 55vh;
+        width: auto;
+        height: auto;
+    }
+}
