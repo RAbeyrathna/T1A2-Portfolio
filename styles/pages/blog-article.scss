@@ -1,11 +1,14 @@
-@import "../../defaults/clear-styles.scss";
-@import "../../defaults/fonts";
-@import "../../defaults/colors.scss";
-@import "../../breakpoints/blog-article-breakpoints";
-@import "../../components/navbar.scss";
-@import "../../components/footer";
-@import "../../components/section-box";
-@import "../../defaults/section-wrapper.scss";
+@import "../defaults/clear-styles.scss";
+@import "../defaults/fonts";
+@import "../defaults/colors.scss";
+@import "../breakpoints/blog-article-breakpoints";
+@import "../components/navbar.scss";
+@import "../components/footer";
+@import "../components/section-box";
+@import "../defaults/section-wrapper.scss";
+
+
+/* Styling used for every blog article page */
 
 body {
     background-color: $primary-color;
@@ -48,7 +51,6 @@ body {
     align-items: center;
     p {
         margin-top: 3%;
-        // text-align: center;
         padding: 0% 10%;
         margin-bottom: 50px;
     }

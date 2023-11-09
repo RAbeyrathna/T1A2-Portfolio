@@ -14,7 +14,7 @@ body {
     align-items: center;
 }
 
-
+/* Creates background to seperate foreground and background */
 #section-bg{
     display: flex;
     flex-direction: column;
@@ -34,6 +34,8 @@ body {
     }
 }
 
+
+/* Styling for each project section */
 .project-sec {
     display: flex;
     justify-content: center;

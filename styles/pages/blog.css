@@ -1,8 +1,10 @@
+/* CSS Reset used so can override styles */
 body, form, fieldset, ol, ul, li, h1, h2, h3, h4, h5, h6, p {
   margin: 0;
   padding: 0;
 }
 
+/* Fonts used for HTMl pages defined here as well as any general styling */
 * {
   font-family: "Roboto", "Crimson Text", sans-serif;
 }
@@ -12,6 +14,8 @@ body, form, fieldset, ol, ul, li, h1, h2, h3, h4, h5, h6, p {
   font-weight: 500;
 }
 
+/* Colour variables defined here */
+/* Colour variables defined here */
 @media only screen and (min-width: 1700px) {
   body .section-wrapper {
     margin-bottom: 25%;
@@ -220,6 +224,8 @@ body, form, fieldset, ol, ul, li, h1, h2, h3, h4, h5, h6, p {
     margin-bottom: 100px;
   }
 }
+/* Colour variables defined here */
+/* Navbar styling used for HTML pages */
 #navbar {
   min-width: 100%;
   max-width: 100%;
@@ -300,6 +306,7 @@ ul {
   display: block;
 }
 
+/* Navbar media queries */
 @media only screen and (max-width: 600px) {
   #nav-heading {
     font-size: 17px;
@@ -367,6 +374,8 @@ ul {
     display: none;
   }
 }
+/* Colour variables defined here */
+/* Footer CSS styling for each page */
 footer {
   font-size: 0.8rem;
   margin-top: 5%;
@@ -399,6 +408,8 @@ footer .social-links #twitter-icon {
   margin-top: 2px;
 }
 
+/* Colour variables defined here */
+/* Defines styles for the box around the inner section, contained within the main section */
 .main-sec {
   display: flex;
   height: 100vh;
@@ -417,6 +428,7 @@ footer .social-links #twitter-icon {
   height: 80%;
 }
 
+/* Section Wrapper styling defined here to take effect on other html pages */
 .section-wrapper {
   display: flex;
   flex-direction: column;
@@ -442,15 +454,7 @@ h1 {
   margin-bottom: 5%;
 }
 
-.read-more {
-  color: #de6c1a;
-  text-decoration: none;
-  font-weight: 500;
-}
-.read-more:hover {
-  text-decoration: underline;
-}
-
+/* Styling for blog post components */
 .blog-post {
   background-color: #fff;
   border: 0px black solid;
@@ -506,6 +510,15 @@ h1 {
   font-weight: 300;
   max-height: 75%;
   overflow: hidden;
+}
+
+.read-more {
+  color: #de6c1a;
+  text-decoration: none;
+  font-weight: 500;
+}
+.read-more:hover {
+  text-decoration: underline;
 }
 
 .blog-description {

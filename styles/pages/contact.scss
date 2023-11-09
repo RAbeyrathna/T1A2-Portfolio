@@ -15,12 +15,6 @@ body {
     @extend #contact-btn;
 }
 
-.page-btn:hover {
-    background-color: #cc5e5e;
-}
-
-
-
 .main-sec{
     height: 90vh;
     padding: 0;
@@ -49,7 +43,7 @@ body {
     margin-bottom: 100px;
 }
 
-
+/* Link images and button styling */
 .link-wrapper{
     display: flex;
     max-height: 600px;

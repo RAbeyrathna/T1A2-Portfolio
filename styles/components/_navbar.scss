@@ -1,6 +1,6 @@
 @import "../defaults/colors";
-//Navbar styling used for HTML pages
 
+/* Navbar styling used for HTML pages */
 #navbar{
     min-width: 100%;
     max-width: 100%;
@@ -86,7 +86,7 @@ color: #fff;
       }
 }
 
-
+/* Navbar media queries */
 @media only screen and (max-width: 600px) {
     #nav-heading{
         font-size: 17px;
