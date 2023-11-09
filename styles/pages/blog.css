@@ -12,8 +12,16 @@ body, form, fieldset, ol, ul, li, h1, h2, h3, h4, h5, h6, p {
   font-weight: 500;
 }
 
+@media only screen and (min-width: 1700px) {
+  body .section-wrapper {
+    margin-bottom: 25%;
+  }
+}
 /* Larger Desktop Screens Styling */
-@media only screen and (min-width: 1200px) {
+@media only screen and (max-width: 1700px) {
+  body .section-wrapper {
+    margin-bottom: 8%;
+  }
   body .blog-post {
     min-height: 20vh;
     height: 60vh;
@@ -120,7 +128,6 @@ body, form, fieldset, ol, ul, li, h1, h2, h3, h4, h5, h6, p {
   }
   body .blog-post .blog-content .blog-heading {
     font-size: 1.2em;
-    padding: 0px;
     margin: 0;
     height: 10%;
   }
@@ -130,7 +137,7 @@ body, form, fieldset, ol, ul, li, h1, h2, h3, h4, h5, h6, p {
   body .blog-post .blog-content .blog-description {
     padding: 0%;
     font-size: 0.85em;
-    height: 40%;
+    height: 60%;
   }
   body .single {
     margin-bottom: 20px;
@@ -143,6 +150,7 @@ body, form, fieldset, ol, ul, li, h1, h2, h3, h4, h5, h6, p {
     margin: 0;
     height: 100%;
     padding-top: 20px;
+    padding: 10px 10px;
   }
 }
 /* Phone to Tablet Styles */
@@ -179,6 +187,7 @@ body, form, fieldset, ol, ul, li, h1, h2, h3, h4, h5, h6, p {
     padding: 0;
     padding-top: 20px;
     height: 30%;
+    padding-right: 10px;
   }
   body .blog-post .blog-content .blog-heading {
     font-size: 1.1em;

@@ -1,8 +1,20 @@
 @import "../defaults/colors";
 
-/* Larger Desktop Screens Styling */
-@media only screen and (min-width: 1200px) {
+@media only screen and (min-width: 1700px) {
     body{
+        .section-wrapper{
+            margin-bottom: 25%;
+        }
+}
+}
+
+
+/* Larger Desktop Screens Styling */
+@media only screen and (max-width: 1700px) {
+    body{
+        .section-wrapper{
+            margin-bottom: 8%;
+        }
         .blog-post{
             min-height: 20vh;
             height: 60vh;
@@ -123,7 +135,6 @@
             height: 100%;
             .blog-heading{
                 font-size: 1.2em;
-                padding: 0px;
                 margin: 0;
                 height: 10%;
             }
@@ -133,7 +144,7 @@
             .blog-description{
                 padding: 0%;
                 font-size: .85em;
-                height: 40%;
+                height: 60%;
             }
          }
         }
@@ -146,6 +157,7 @@
                     margin:0;
                     height: 100%;
                     padding-top: 20px;
+                    padding: 10px 10px;
                 }
             }
         }
@@ -186,6 +198,7 @@
             padding: 0;
             padding-top: 20px;
             height: 30%;
+            padding-right: 10px;
             .blog-heading{
                 font-size: 1.1em;
                 padding: 0px;
