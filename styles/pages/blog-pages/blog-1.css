@@ -12,6 +12,25 @@ body, form, fieldset, ol, ul, li, h1, h2, h3, h4, h5, h6, p {
   font-weight: 500;
 }
 
+/* Tablet to Desktop styles */
+@media only screen and (max-width: 1000px) {
+  body .page-heading h1 {
+    font-size: 1.6em;
+  }
+  body .main-content .blog-article p {
+    font-size: 0.9em;
+  }
+}
+/* Phone to Tablet Styles */
+@media only screen and (max-width: 500px) {
+  body .page-heading h1 {
+    font-size: 1.3em;
+  }
+  body .main-content .blog-article p {
+    font-size: 0.8em;
+    text-align: center;
+  }
+}
 #navbar {
   min-width: 100%;
   max-width: 100%;
