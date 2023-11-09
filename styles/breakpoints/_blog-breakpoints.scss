@@ -2,49 +2,217 @@
 
 /* Larger Desktop Screens Styling */
 @media only screen and (min-width: 1200px) {
+    body{
+        .blog-post{
+            min-height: 20vh;
+            height: 60vh;
+            .blog-content{
 
+                .blog-heading{
+                    font-size: 1.3em;
+                }
+                .blog-year{
+                    font-size: .9em;
+                }
+                .blog-description{
+                    height: 60%;
+                    font-size: .9em;
+                    overflow: hidden;
+                }
+                .read-more{
+                    font-size: .9em;
+                }
+            }
+        }
+        .single{
+            margin-bottom: 200px;
+            height: 100vh;
+            width: 29%;
+            .inner-blog{
+                .blog-content{
+                height: 50%;
+                .blog-img{
+                    height: auto;
+                    width: 100%;
+                    max-width: 100%;
+                }
+            }
+            }
+        }
+    }
     }
 
 /* Laptop / Desktop Styling */
 @media only screen and (max-width: 1200px) {
+    body{
+        .blog-post{
+            min-height: 20vh;
+            height: 50vh;
+            .blog-content{
 
+                .blog-heading{
+                    font-size: 1.2em;
+                }
+                .blog-year{
+                    font-size: .8em;
+                }
+                .blog-description{
+                    height: 60%;
+                    font-size: .8em;
+                    overflow: hidden;
+                }
+                .read-more{
+                    font-size: .9em;
+                }
+            }
+        }
+        .single{
+            margin-bottom: 100px;
+            height: 100vh;
+            width: 29%;
+            .inner-blog{
+                .blog-content{
+                height: 50%;
+                .blog-img{
+                    height: auto;
+                    width: 100%;
+                    max-width: 100%;
+                }
+            }
+            }
+        }
+    }
 }
 
 /* Tablet to Desktop styles */
 @media only screen and (max-width: 1000px) {
-
+    body{
+        h1{
+            font-size: 1.5em;
+            margin-bottom: 25px;
+        }
+        .blog-post{
+            width: 100%;
+            min-height: 30vh;
+            height: 30vh;
+            .inner-blog{
+                flex-direction: row;
+                align-items: center;
+                .blog-img{
+                    height: 100%;
+                    width: auto;
+                }
+                .read-more{
+                    font-size: .9em;
+                }
+                .divider {
+                    display: inline-block;
+                    border-top: 0;
+                    border-left: 1px #535353 solid;
+                    margin: 0;
+                    margin-left: 10px;
+                    height: 75%;
+                    width: 100%;
+                }
+            }
+        .blog-content{
+            text-align: center;
+            padding: 0;
+            padding-top: 20px;
+            padding-right: 20px;
+            height: 100%;
+            .blog-heading{
+                font-size: 1.2em;
+                padding: 0px;
+                margin: 0;
+                height: 10%;
+            }
+            .blog-year{
+                font-size: .83em;
+            }
+            .blog-description{
+                padding: 0%;
+                font-size: .85em;
+                height: 40%;
+            }
+         }
+        }
+        .single{
+            margin-bottom: 0px;
+            .inner-blog{
+                flex-direction: row;
+                .blog-content{
+                    margin:0;
+                    height: 100%;
+                    padding-top: 20px;
+                }
+            }
+        }
+    }
 }
 
 /* Phone to Tablet Styles */
-@media only screen and (max-width: 600px) {
+@media only screen and (max-width: 700px) {
     body{
         h1{
             font-size: 1.5em;
         }
         .blog-post{
             width: 100%;
+            height: 100vh;
             .inner-blog{
-                flex-direction: column;
+                flex-direction: column-reverse;
+                align-items: center;
                 .blog-img{
+                    height: 100%;
+                    width: auto;
+                    max-width: 100%;
+                }
+                .read-more{
+                    font-size: .9em;
+                }
+                .divider {
+                    border-left: 0;
+                    border-top: 1px #535353 solid;
+                    margin: 0px;
+                    margin-bottom: 20px;
+                    height: 1px;
+                    width: 50%;
                 }
             }
         .blog-content{
+            text-align: center;
+            padding: 0;
+            padding-top: 20px;
+            height: 30%;
             .blog-heading{
+                font-size: 1.1em;
+                padding: 0px;
+                margin: 0;
+                height: 10%;
             }
             .blog-year{
+                font-size: .8em;
             }
             .blog-description{
-
+                padding: 0%;
+                font-size: .8em;
+                height: 40%;
             }
          }
         }
         .reverse-blog {
             flex-direction: column;
-            .blog-content{
-        }
         }
         .single{
-
+            margin-bottom: 0px;
+            .inner-blog{
+                flex-direction: column;
+                .blog-content{
+                    margin:0;
+                    height: 35%
+                }
+            }
         }
     }
 }
