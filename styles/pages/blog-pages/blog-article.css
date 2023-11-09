@@ -258,6 +258,12 @@ body {
 .page-heading h1 {
   font-weight: 500;
 }
+.page-heading p {
+  margin-right: 10px;
+  font-size: 15px;
+  font-weight: 300;
+  font-style: italic;
+}
 
 .main-content {
   display: flex;
@@ -284,4 +290,4 @@ body {
   max-height: 55vh;
   width: auto;
   height: auto;
-}/*# sourceMappingURL=blog-1.css.map */
+}/*# sourceMappingURL=blog-article.css.map */
