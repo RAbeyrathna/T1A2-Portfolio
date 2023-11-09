@@ -18,6 +18,7 @@ body, form, fieldset, ol, ul, li, h1, h2, h3, h4, h5, h6, p {
     font-size: 0.8em;
   }
   body .page-heading p {
+    padding: 12px;
     font-size: 1.1em;
   }
   body .inner-sec .project-heading {
@@ -39,7 +40,9 @@ body, form, fieldset, ol, ul, li, h1, h2, h3, h4, h5, h6, p {
     font-size: 0.7em;
   }
   body .page-heading p {
+    padding: 12px;
     font-size: 1.2em;
+    margin-bottom: 30px;
   }
   body .inner-sec {
     padding: 0;
