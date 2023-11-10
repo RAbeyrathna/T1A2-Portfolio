@@ -261,6 +261,13 @@ footer .icons8-link {
   align-items: center;
 }
 
+.page-btn {
+  transition-duration: 0.1s;
+}
+.page-btn:hover {
+  transform: translateY(-3px);
+}
+
 /* Styling used for every blog article page */
 body {
   background-color: #B7DAE9;

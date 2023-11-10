@@ -1,0 +1,7 @@
+
+.page-btn{
+    transition-duration: .1s;
+    &:hover{
+        transform: translateY(-3px);
+    }
+}
