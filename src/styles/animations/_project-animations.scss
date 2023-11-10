@@ -1,0 +1,17 @@
+
+.section-wrapper{
+    animation: slide-down 1.5s ease 200ms backwards;
+}
+
+
+
+@keyframes slide-down{
+    from{
+        opacity: 0;
+        transform: translateY(-40px);
+    }
+    to{
+        opacity: 1;
+        transform: translateY(0px);
+    }
+}
