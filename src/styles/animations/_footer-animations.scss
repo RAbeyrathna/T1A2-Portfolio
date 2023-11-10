@@ -1,0 +1,10 @@
+@import "../defaults/colors.scss";
+
+footer a{
+    transition-duration: .2s;
+    &:hover{
+        transform: translateY(-3px);
+    }
+}
+
+

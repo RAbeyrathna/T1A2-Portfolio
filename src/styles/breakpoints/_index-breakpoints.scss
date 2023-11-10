@@ -23,7 +23,6 @@
 /* Laptop / Desktop Styling */
 @media only screen and (max-width: 1200px) {
     body {
-        font-size: 1.2em;
     #splash-page{
         #splash-heading {
             font-size: 5em;
@@ -60,7 +59,7 @@
     #skills{
         .skill-wrapper{
             .skill-heading{
-              font-size: 1.1em;
+              font-size: 1.3em;
               height: 50px;
         }
         .skill-item{
@@ -68,7 +67,7 @@
         }
         .skill-desc{
             margin-top: 10px;
-            font-size: .9em;
+            font-size: 1em;
             text-align: center;
         }
     }

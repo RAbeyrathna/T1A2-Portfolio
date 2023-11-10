@@ -31,9 +31,6 @@ body, form, fieldset, ol, ul, li, h1, h2, h3, h4, h5, h6, p {
 }
 /* Laptop / Desktop Styling */
 @media only screen and (max-width: 1200px) {
-  body {
-    font-size: 1.2em;
-  }
   body #splash-page #splash-heading {
     font-size: 5em;
     font-weight: 300;
@@ -62,7 +59,7 @@ body, form, fieldset, ol, ul, li, h1, h2, h3, h4, h5, h6, p {
     margin-top: 20px;
   }
   body #skills .skill-wrapper .skill-heading {
-    font-size: 1.1em;
+    font-size: 1.3em;
     height: 50px;
   }
   body #skills .skill-wrapper .skill-item {
@@ -70,7 +67,7 @@ body, form, fieldset, ol, ul, li, h1, h2, h3, h4, h5, h6, p {
   }
   body #skills .skill-wrapper .skill-desc {
     margin-top: 10px;
-    font-size: 0.9em;
+    font-size: 1em;
     text-align: center;
   }
   body #skills #ca-img {
@@ -490,6 +487,14 @@ ul {
   }
 }
 /* Colour variables defined here */
+/* Colour variables defined here */
+footer a {
+  transition-duration: 0.2s;
+}
+footer a:hover {
+  transform: translateY(-3px);
+}
+
 /* Footer CSS styling for each page */
 footer {
   font-size: 0.8rem;
@@ -551,6 +556,28 @@ footer .icons8-link {
   align-items: center;
 }
 
+/* Colour variables defined here */
+#splash-heading {
+  animation: slide-in 1s ease 200ms backwards;
+}
+
+.link-wrapper a {
+  transition-duration: 0.2s;
+}
+.link-wrapper a:hover {
+  transform: translateY(-4px);
+}
+
+@keyframes slide-in {
+  from {
+    opacity: 0;
+    transform: translateX(-100px);
+  }
+  to {
+    opacity: 1;
+    transform: translateX(0px);
+  }
+}
 body {
   background-color: #B7DAE9;
 }

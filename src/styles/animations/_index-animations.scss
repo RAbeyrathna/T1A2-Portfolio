@@ -1,0 +1,25 @@
+@import "../defaults/colors.scss";
+
+#splash-heading{
+    animation: slide-in 1s ease 200ms backwards;
+}
+
+
+.link-wrapper a{
+    transition-duration: .2s;
+    &:hover{
+        transform: translateY(-4px);
+    }
+}
+
+
+@keyframes slide-in{
+    from{
+        opacity: 0;
+        transform: translateX(-100px);
+    }
+    to{
+        opacity: 1;
+        transform: translateX(0px);
+    }
+}
