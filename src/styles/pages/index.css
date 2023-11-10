@@ -562,10 +562,10 @@ footer .icons8-link {
 }
 
 .link-wrapper a {
-  transition-duration: 0.2s;
+  transition-duration: 0.1s;
 }
 .link-wrapper a:hover {
-  transform: translateY(-4px);
+  transform: translateY(-3px);
 }
 
 @keyframes slide-in {

@@ -1,7 +1,7 @@
 @import "../defaults/colors.scss";
 
-#splash-heading{
-    animation: slide-in 1s ease 200ms backwards;
+.link-box{
+    animation: slide-down .7s ease 200ms backwards;
 }
 
 
@@ -13,13 +13,13 @@
 }
 
 
-@keyframes slide-in{
+@keyframes slide-down{
     from{
         opacity: 0;
-        transform: translateX(-100px);
+        transform: translateY(-100px);
     }
     to{
         opacity: 1;
-        transform: translateX(0px);
+        transform: translateY(0px);
     }
 }

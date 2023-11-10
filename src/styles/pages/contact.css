@@ -433,6 +433,28 @@ footer .icons8-link {
   align-items: center;
 }
 
+/* Colour variables defined here */
+.link-box {
+  animation: slide-down 0.7s ease 200ms backwards;
+}
+
+.link-wrapper a {
+  transition-duration: 0.1s;
+}
+.link-wrapper a:hover {
+  transform: translateY(-3px);
+}
+
+@keyframes slide-down {
+  from {
+    opacity: 0;
+    transform: translateY(-100px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0px);
+  }
+}
 body {
   background-color: #F1D3E2;
 }
@@ -499,7 +521,4 @@ body {
 }
 .link-wrapper #resume-box {
   margin-top: 0px;
-}
-.link-wrapper #email-img {
-  margin-right: 3px;
 }/*# sourceMappingURL=contact.css.map */

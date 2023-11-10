@@ -6,6 +6,7 @@
 @import "../components/footer";
 @import "../components/section-box";
 @import "../defaults/section-wrapper.scss";
+@import "../animations/contact-animations";
 
 body {
     background-color: #F1D3E2;
@@ -78,9 +79,6 @@ body {
     }
     #resume-box{
         margin-top: 0px;
-    }
-    #email-img{
-        margin-right: 3px;
     }
 }
 
