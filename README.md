@@ -19,7 +19,7 @@ A personal portfolio website created for the Coder Academy T1A2 assignment.
 
 ## Purpose
 
-The purpose of this project is to develop a presentable website that will function as an online resume, showing potential employers an insight as to who I am as well as presenting any projects that I may have worked on in the past. It should also help highlight my skills and expertise to help demonstrate the value I can bring as an emoployee. The website should stand out to employers and showcase my personality while leaving a lasting impression of my character.
+The purpose of this project is to develop a presentable website that will function as an online resume, showing potential employers an insight as to who I am as well as presenting any projects that I may have worked on in the past. It should also help highlight my skills and expertise to help demonstrate the value I can bring as an emoployee. The website should stand out to employers and showcase my personality while leaving a lasting impression of my character. Finally, the website should intrigue the reader to get into contact with me and to reach out using one of the methods found on the contact page.
 
 ## Functionality and Features
 
