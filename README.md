@@ -57,73 +57,73 @@ The purpose of this project is to develop a presentable website that will functi
 
 ### Home Page
 
-#### Home Page - Mobile
+#### Home Page - Desktop
 
-![Home Page Mobile](docs/Screenshots/Mobile/home-page-mobile.png "Home Page Mobile")
+![Home Page Desktop](docs/Screenshots/Desktop/home-page-desktop.png "Home Page Desktop")
 
 #### Home Page - Tablet
 
 ![Home Page Tablet](docs/Screenshots/Tablet/home-page-tablet.png "Home Page Tablet")
 
-#### Home Page - Desktop
+#### Home Page - Mobile
 
-![Home Page Desktop](docs/Screenshots/Desktop/home-page-desktop.png "Home Page Desktop")
+![Home Page Mobile](docs/Screenshots/Mobile/home-page-mobile.png "Home Page Mobile")
 
 ### Projects Page
-
-#### Projects Page - Mobile
-
-![Projects Page Mobile](docs/Screenshots/Mobile/projects-page-mobile.png "Projects Page Mobile")
-
-#### Projects Page - Tablet
-
-![Projects Page Tablet](docs/Screenshots/Tablet/projects-page-tablet.png "Projects Page Tablet")
 
 #### Projects Page - Desktop
 
 ![Projects Page Desktop](docs/Screenshots/Desktop/projects-page-desktop.png "Projects Page Desktop")
 
+#### Projects Page - Tablet
+
+![Projects Page Tablet](docs/Screenshots/Tablet/projects-page-tablet.png "Projects Page Tablet")
+
+#### Projects Page - Mobile
+
+![Projects Page Mobile](docs/Screenshots/Mobile/projects-page-mobile.png "Projects Page Mobile")
+
 ### Contact Me Page
-
-#### Contact Me - Mobile
-
-![Contact Me Mobile](docs/Screenshots/Mobile/contact-page-mobile.png "Contact Me Mobile")
-
-#### Contact Me - Tablet
-
-![Contact Me Tablet](docs/Screenshots/Tablet/contact-page-tablet.png "Contact Me Tablet")
 
 #### Contact Me - Desktop
 
 ![Contact Me Desktop](docs/Screenshots/Desktop/contact-page-desktop.png "Contact Me Desktop")
 
+#### Contact Me - Tablet
+
+![Contact Me Tablet](docs/Screenshots/Tablet/contact-page-tablet.png "Contact Me Tablet")
+
+#### Contact Me - Mobile
+
+![Contact Me Mobile](docs/Screenshots/Mobile/contact-page-mobile.png "Contact Me Mobile")
+
 ### Blog Page
-
-#### Blog Page - Mobile
-
-![Blog Page Mobile](docs/Screenshots/Mobile/blog-page-mobile.png "Blog Page Mobile")
-
-#### Blog Page - Tablet
-
-![Blog Page Tablet](docs/Screenshots/Tablet/blog-page-tablet.png "Blog Page Tablet")
 
 #### Blog Page - Desktop
 
 ![Home Page Desktop](docs/Screenshots/Desktop/blog-page-desktop.png "Blog Page Desktop")
 
+#### Blog Page - Tablet
+
+![Blog Page Tablet](docs/Screenshots/Tablet/blog-page-tablet.png "Blog Page Tablet")
+
+#### Blog Page - Mobile
+
+![Blog Page Mobile](docs/Screenshots/Mobile/blog-page-mobile.png "Blog Page Mobile")
+
 ### Blog Article Page
 
-#### Blog Article Page - Mobile
+#### Blog Article Page - Desktop
 
-![Blog Article Page Mobile](docs/Screenshots/Mobile/blog-article-mobile.png "Blog Article Page Mobile")
+![Blog Article Page Desktop](docs/Screenshots/Desktop/blog-article-desktop.png "Blog Article Page Desktop")
 
 #### Blog Article Page - Tablet
 
 ![Blog Article Page Tablet](docs/Screenshots/Tablet/blog-article-tablet.png "Blog Article Page Tablet")
 
-#### Blog Article Page - Desktop
+#### Blog Article Page - Mobile
 
-![Blog Article Page Desktop](docs/Screenshots/Desktop/blog-article-desktop.png "Blog Article Page Desktop")
+![Blog Article Page Mobile](docs/Screenshots/Mobile/blog-article-mobile.png "Blog Article Page Mobile")
 
 ## Target Audience
 
