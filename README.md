@@ -6,7 +6,7 @@ A personal portfolio website created for the Coder Academy T1A2 assignment.
 
 [Github Repository](https://github.com/RAbeyrathna/T1A2-Portfolio)
 
-[Video Presentation]()
+[Video Presentation](https://youtu.be/XlShEg-wZRQ)
 
 ## Table of Contents
 
